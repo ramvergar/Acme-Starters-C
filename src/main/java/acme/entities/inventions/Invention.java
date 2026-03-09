@@ -1,0 +1,98 @@
+
+package acme.entities.inventions;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import acme.client.components.basis.AbstractEntity;
+import acme.client.components.datatypes.Money;
+import acme.client.components.validation.Mandatory;
+import acme.client.components.validation.Optional;
+import acme.client.components.validation.ValidMoment;
+import acme.client.components.validation.ValidMoment.Constraint;
+import acme.client.components.validation.ValidUrl;
+import acme.realms.Inventor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter
+public class Invention extends AbstractEntity {
+
+	@Autowired
+	@Transient
+	private PartRepository		repository;
+
+	private static final long	serialVersionUID	= 1L;
+
+	@Mandatory
+	@Column(unique = true)
+	private String				ticker;
+
+	@Mandatory
+	@Column
+	private String				name;
+
+	@Mandatory
+	@Column
+	private String				description;
+
+	@Mandatory
+	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date				startMoment;
+
+	@Mandatory
+	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date				endMoment;
+
+	@Optional
+	@ValidUrl
+	@Column
+	private String				moreInfo;
+
+	@Mandatory
+	@Valid
+	@Column
+	private Boolean				draftMode;
+
+	@Mandatory
+	@Valid
+	@ManyToOne(optional = false)
+	private Inventor			inventor;
+
+
+	@Transient
+	@Valid
+	public Double monthsActive() {
+		double result = 0.0;
+		if (this.startMoment != null && this.endMoment != null) {
+			long diff = this.endMoment.getTime() - this.startMoment.getTime();
+			result = diff / (1000.0 * 60 * 60 * 24 * 30.44);
+			result = Math.round(result * 10.0) / 10.0;
+		}
+		return result;
+	}
+
+	@Transient
+	//@ValidMoney(min = 0)
+	public Money cost() {
+		Double sum = this.repository.sumPriceByInventionId(this.getId());
+		Money result = new Money();
+		result.setAmount(sum);
+		result.setCurrency("EUR");
+		return result;
+	}
+
+}
