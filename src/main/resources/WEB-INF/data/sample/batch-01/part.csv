@@ -1,0 +1,42 @@
+key,version,name,description,cost,kind,key:invention
+
+# base
+part-00,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+
+# variantes de nombre
+part-01,1,"X","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-02,1,"AI","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-03,1,"Sensor","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-04,1,"Plataforma inteligente de gestión energética para sistemas electrónicos","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-05,1,"Plataforma inteligente de gestión energética para sistemas electrónicos distribuidos","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-06,1,"وحدة طاقة","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-07,1,"能源单元","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-08,1,"<marquee>Energy</marquee>","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-09,1,"<script>alert('test')</script>","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-10,1,"โมดูลพลังงาน","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+part-11,1,"' OR '1'='1","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-47
+
+# variantes de descripción
+part-12,1,"Módulo de Control Energético Avanzado","A",EUR 50.00,CORE,invention-47
+part-13,1,"Módulo de Control Energético Avanzado","AI",EUR 50.00,CORE,invention-47
+part-14,1,"Módulo de Control Energético Avanzado","Dispositivo que analiza el consumo eléctrico del sistema y ajusta automáticamente la distribución de energía para mejorar el rendimiento operativo.",EUR 50.00,CORE,invention-47
+part-15,1,"Módulo de Control Energético Avanzado","Dispositivo que analiza el consumo eléctrico del sistema y ajusta automáticamente la distribución de energía para mejorar el rendimiento operativo*",EUR 50.00,CORE,invention-47
+part-16,1,"Módulo de Control Energético Avanzado","ระบบจัดการพลังงาน",EUR 50.00,CORE,invention-47
+part-17,1,"Módulo de Control Energético Avanzado","نظام إدارة الطاقة",EUR 50.00,CORE,invention-47
+part-18,1,"Módulo de Control Energético Avanzado","能源管理模块",EUR 50.00,CORE,invention-47
+part-19,1,"Módulo de Control Energético Avanzado","<marquee>Energy Test</marquee>",EUR 50.00,CORE,invention-47
+part-20,1,"Módulo de Control Energético Avanzado","<script>alert('hack')</script>",EUR 50.00,CORE,invention-47
+part-21,1,"Módulo de Control Energético Avanzado","' OR 'A'='A",EUR 50.00,CORE,invention-47
+
+# variantes de coste
+part-22,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 0.00,CORE,invention-47
+part-23,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 0.01,CORE,invention-47
+part-24,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 999999.99,CORE,invention-00
+part-25,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 1000000.00,CORE,invention-01
+
+# variantes de tipo
+part-26,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,MANDATORY,invention-47
+part-27,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,OPTIONAL,invention-47
+
+# variantes de invención
+part-28,1,"Módulo de Control Energético Avanzado","Componente electrónico diseñado para gestionar el flujo energético dentro de sistemas inteligentes y optimizar su funcionamiento continuo.",EUR 50.00,CORE,invention-02
