@@ -1,55 +1,51 @@
 key,version,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:inventor
 
 # base
-invention-00,1,"TECH-01","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.", "2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+invention-00,1,"TE01-ABCDE","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
 
-# variantes de ticker
-invention-01,1,"ABCDE-1","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
-invention-02,1,"ABCDEF-2","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
-invention-03,1,"QQQQQ-3","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
-invention-04,1,"ZZZZZZZZZZZZZZZ","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
-invention-05,1,"X1Y2Z-4","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
-invention-06,1,"ABCDE-5","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+# variantes de ticker (todas válidas ahora)
+invention-01,1,"AB12-ABCDE","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+invention-02,1,"CD34-ABCDEF","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+invention-03,1,"EF56-QQQQQ","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+invention-04,1,"GH78-ZZZZZZZZZZ","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+invention-05,1,"IJ90-X1Y2Z","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
+invention-06,1,"KL11-ABCDE","Sistema Autónomo de Energía Urbana","Plataforma tecnológica diseñada para gestionar recursos energéticos en ciudades inteligentes y mejorar la eficiencia del consumo eléctrico.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/system",true,inventor-01
 
 # variantes de nombre
-invention-07,1,"TECH-02","X","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-08,1,"TECH-03","AI","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-09,1,"TECH-04","Control","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-10,1,"TECH-05","Sistema avanzado de control energético para infraestructuras inteligentes","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-11,1,"TECH-06","Sistema avanzado de control energético para infraestructuras inteligentes +","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-12,1,"TECH-07","نظام ذكي","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-13,1,"TECH-08","智能系统","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-14,1,"TECH-09","<marquee>Test</marquee>","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-15,1,"TECH-10","<script>alert('test')</script>","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-16,1,"TECH-11","ระบบอัจฉริยะ","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
-invention-17,1,"TECH-12","' OR '1'='1","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-07,1,"MN12-ABCDE","X","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-08,1,"OP13-ABCDE","AI","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-09,1,"QR14-ABCDE","Control","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-10,1,"ST15-ABCDEFG","Sistema avanzado de control energético para infraestructuras inteligentes","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-11,1,"UV16-ABCDEFGH","Sistema avanzado de control energético para infraestructuras inteligentes +","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-12,1,"WX17-ABCDE","نظام ذكي","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-13,1,"YZ18-ABCDE","智能系统","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-14,1,"AA19-ABCDE","<marquee>Test</marquee>","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-15,1,"BB20-ABCDE","<script>alert('test')</script>","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-16,1,"CC21-ABCDE","ระบบอัจฉริยะ","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
+invention-17,1,"DD22-ABCDE","' OR '1'='1","Sistema tecnológico para mejorar la distribución energética en infraestructuras urbanas.","2025/01/01 00:00","2025/01/02 00:00","http://tech.example/control",true,inventor-01
 
 # variantes de descripción
-invention-18,1,"TECH-13","Sistema Energético Urbano","A","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-19,1,"TECH-14","Sistema Energético Urbano","AI","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-20,1,"TECH-15","Sistema Energético Urbano","Arquitectura distribuida que recopila datos energéticos y optimiza la gestión del suministro mediante algoritmos predictivos.","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-21,1,"TECH-16","Sistema Energético Urbano","Arquitectura distribuida que recopila datos energéticos y optimiza la gestión del suministro mediante algoritmos predictivos*","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-22,1,"TECH-17","Sistema Energético Urbano","ระบบพลังงาน","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-23,1,"TECH-18","Sistema Energético Urbano","نظام الطاقة","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-24,1,"TECH-19","Sistema Energético Urbano","能源系统","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-25,1,"TECH-20","Sistema Energético Urbano","<marquee>Energy</marquee>","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-26,1,"TECH-21","Sistema Energético Urbano","<script>alert('hack')</script>","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
-invention-27,1,"TECH-22","Sistema Energético Urbano","' OR 'A'='A","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-18,1,"EE23-ABCDE","Sistema Energético Urbano","A","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-19,1,"FF24-ABCDE","Sistema Energético Urbano","AI","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-20,1,"GG25-ABCDEFG","Sistema Energético Urbano","Arquitectura distribuida que recopila datos energéticos y optimiza la gestión del suministro mediante algoritmos predictivos.","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-21,1,"HH26-ABCDEFGH","Sistema Energético Urbano","Arquitectura distribuida que recopila datos energéticos y optimiza la gestión del suministro mediante algoritmos predictivos*","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-22,1,"II27-ABCDE","Sistema Energético Urbano","ระบบพลังงาน","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-23,1,"JJ28-ABCDE","Sistema Energético Urbano","نظام الطاقة","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-24,1,"KK29-ABCDE","Sistema Energético Urbano","能源系统","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-25,1,"LL30-ABCDE","Sistema Energético Urbano","<marquee>Energy</marquee>","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-26,1,"MM31-ABCDE","Sistema Energético Urbano","<script>alert('hack')</script>","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
+invention-27,1,"NN32-ABCDE","Sistema Energético Urbano","' OR 'A'='A","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",true,inventor-01
 
-# variantes de fechas
-invention-28,1,"TECH-23","Módulo Energético Inteligente","Dispositivo para almacenar energía de forma compacta.","2025/01/01 0:00","2025/01/01 0:01","http://energy.example",true,inventor-01
-invention-29,1,"TECH-24","Módulo Energético Inteligente","Dispositivo para almacenar energía de forma compacta.","2200/12/31 23:58","2200/12/31 23:59","http://energy.example",true,inventor-01
-invention-30,1,"TECH-25","Módulo Energético Inteligente","Dispositivo para almacenar energía de forma compacta.","2025/01/01 0:00","2200/12/31 23:59","http://energy.example",true,inventor-01
+# resto
+invention-28,1,"OO33-ABCDE","Módulo Energético Inteligente","Dispositivo para almacenar energía de forma compacta.","2025/01/01 0:00","2025/01/01 0:01","http://energy.example",true,inventor-01
+invention-29,1,"PP34-ABCDE","Módulo Energético Inteligente","Dispositivo para almacenar energía de forma compacta.","2200/12/31 23:58","2200/12/31 23:59","http://energy.example",true,inventor-01
+invention-30,1,"QQ35-ABCDE","Módulo Energético Inteligente","Dispositivo para almacenar energía de forma compacta.","2025/01/01 0:00","2200/12/31 23:59","http://energy.example",true,inventor-01
 
-# variantes de enlace
-invention-31,1,"TECH-26","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://net.example/a",true,inventor-01
-invention-32,1,"TECH-27","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://net.example/network/system/router/performance/analysis/traffic/control",true,inventor-01
-invention-33,1,"TECH-28","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://net.example/network/router/test/X",true,inventor-01
-invention-34,1,"TECH-29","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://network.example",true,inventor-01
-invention-35,1,"TECH-30","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","https://network.example",true,inventor-01
+invention-31,1,"RR36-ABCDE","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://net.example/a",true,inventor-01
+invention-32,1,"SS37-ABCDEFG","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://net.example/network/system/router/performance/analysis/traffic/control",true,inventor-01
+invention-33,1,"TT38-ABCDE","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://net.example/network/router/test/X",true,inventor-01
+invention-34,1,"UU39-ABCDE","Router Adaptativo","Dispositivo que ajusta dinámicamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","http://network.example",true,inventor-01
+invention-35,1,"VV40-ABCDE","Router Adaptativo","Dispositivo que ajusta dinámamente rutas de red según la carga del tráfico.","2025/01/01 00:00","2025/01/02 00:00","https://network.example",true,inventor-01
 
-# variantes de draft
-invention-47,1,"TECH-42","Sensor Ambiental Inteligente","Sensor diseñado para medir temperatura humedad y partículas contaminantes en interiores.","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",false,inventor-01
-
-# variantes de inventor
-invention-48,1,"TECH-43","Motor Eléctrico Compacto","Motor de alta eficiencia diseñado para vehículos eléctricos ligeros.","2025/01/01 00:00","2025/01/02 00:00","http://motor.example",true,inventor-02
+invention-47,1,"WW41-ABCDE","Sensor Ambiental Inteligente","Sensor diseñado para medir temperatura humedad y partículas contaminantes en interiores.","2025/01/01 00:00","2025/01/02 00:00","http://sensor.example",false,inventor-01
+invention-48,1,"XX42-ABCDE","Motor Eléctrico Compacto","Motor de alta eficiencia diseñado para vehículos eléctricos ligeros.","2025/01/01 00:00","2025/01/02 00:00","http://motor.example",true,inventor-02
