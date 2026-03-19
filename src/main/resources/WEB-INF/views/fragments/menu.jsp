@@ -42,8 +42,8 @@
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.any" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list" access="!hasRealm('Inventor')"/>
-			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list" access="!hasRealm('Fundraiser')"/>
+			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list"/>
 		</acme:menu-option>
 
 
