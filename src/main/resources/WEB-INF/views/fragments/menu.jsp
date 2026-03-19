@@ -18,6 +18,12 @@
 
 <acme:menu-bar>
 	<acme:menu-left>
+
+		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list"/>
+		</acme:menu-option>
+
 		<acme:menu-option code="master.menu.administrator" access="hasRealm('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.list-user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
@@ -28,20 +34,32 @@
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.fundraiser" access="hasRealm('Fundraiser')">
-			<acme:menu-suboption code="master.menu.fundraiser.list-my-strategies" action="/fundraiser/strategy/list"/>
+			<acme:menu-suboption code="master.menu.fundraiser.strategy.list" action="/fundraiser/strategy/list"/>
+		</acme:menu-option>
+
+		<acme:menu-option code="master.menu.inventor" access="hasRealm('Inventor')">
+			<acme:menu-suboption code="master.menu.inventor.invention.list" action="/inventor/invention/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.any" access="isAuthenticated()">
-			 <acme:menu-suboption code="master.menu.any.list-strategies" action="/any/strategy/list"/>	
+			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list" access="!hasRealm('Inventor')"/>
+			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list" access="!hasRealm('Fundraiser')"/>
 		</acme:menu-option>
+
+
 	</acme:menu-left>
 
 	<acme:menu-right>		
 		<acme:menu-option code="master.menu.user-account" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.user-account.general-profile" action="/authenticated/user-account/update"/>
+
 			<acme:menu-suboption code="master.menu.user-account.become-fundraiser" action="/authenticated/fundraiser/create" access="!hasRealm('Fundraiser')"/>
 			<acme:menu-suboption code="master.menu.user-account.fundraiser-profile" action="/authenticated/fundraiser/update" access="hasRealm('Fundraiser')"/>
+
+			<acme:menu-suboption code="master.menu.user-account.become-inventor" action="/authenticated/inventor/create" access="!hasRealm('Inventor')"/>
+			<acme:menu-suboption code="master.menu.user-account.inventor-profile" action="/authenticated/inventor/update" access="hasRealm('Inventor')"/>
+
 		</acme:menu-option>
 	</acme:menu-right>
-</acme:menu-bar>
 
+</acme:menu-bar>
