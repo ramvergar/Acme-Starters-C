@@ -1,0 +1,38 @@
+key,name,notes,money,kind,key:sponsorship
+# base
+donation-00,"Donation Base","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-19
+# variantes de name
+donation-01,"L","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-01
+donation-02,"Lo","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-02
+donation-03,"Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod t","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-02
+donation-04,"Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod te","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-03
+donation-05,"โลเร็ม อิปซัม","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-03
+donation-06,"لوريم إيبسوم","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-03
+donation-07,"洛伦·伊普森","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-07
+donation-08,"<marquee>Hacked</marquee>","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-08
+donation-09,"<script>alert(‘Hacked!’);</script>","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-09
+donation-10,"'' or 'A' = 'A ","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-10
+# variantes de notes
+donation-11,"Donation Base","L",EUR 5000.00,ALTRUIST,sponsorship-11
+donation-12,"Donation Base","Lo",EUR 5000.00,ALTRUIST,sponsorship-12
+donation-13,"Donation Base","Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod t",EUR 5000.00,ALTRUIST,sponsorship-13
+donation-14,"Donation Base","Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod te",EUR 5000.00,ALTRUIST,sponsorship-14
+donation-15,"Donation Base","โลเร็ม อิปซัม",EUR 5000.00,ALTRUIST,sponsorship-15
+donation-16,"Donation Base","لوريم إيبسوم",EUR 5000.00,ALTRUIST,sponsorship-16
+donation-17,"Donation Base","洛伦·伊普森",EUR 5000.00,ALTRUIST,sponsorship-17
+donation-18,"Donation Base","<marquee>Hacked</marquee>",EUR 5000.00,ALTRUIST,sponsorship-18
+donation-19,"Donation Base","<script>alert(‘Hacked!’);</script>",EUR 5000.00,ALTRUIST,sponsorship-19
+donation-20,"Donation Base","'' or 'A' = 'A ",EUR 5000.00,ALTRUIST,sponsorship-20
+# variantes de money
+donation-21,"Donation Base","Initial funding",EUR 0.01,ALTRUIST,sponsorship-21
+donation-22,"Donation Base","Initial funding",EUR 0.02,ALTRUIST,sponsorship-22
+donation-23,"Donation Base","Initial funding",EUR 999999.99,ALTRUIST,sponsorship-23
+donation-24,"Donation Base","Initial funding",EUR 1000000.00,ALTRUIST,sponsorship-24
+donation-25,"Donation Base","Initial funding",EUR 500000.00,ALTRUIST,sponsorship-25
+# variantes de kind
+donation-26,"Donation Base","Initial funding",EUR 5000.00,REWARDED,sponsorship-26
+donation-27,"Donation Base","Initial funding",EUR 5000.00,CELEBRATED,sponsorship-27
+# donaciones de sponsorships publicados
+donation-28,"Donation Base","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-39
+donation-29,"Donation Base","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-40
+donation-30,"Donation Base","Initial funding",EUR 5000.00,ALTRUIST,sponsorship-40
