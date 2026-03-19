@@ -1,0 +1,63 @@
+key,name,notes,money,kind,key:sponsorship
+
+# base
+donation-00,"Donation Base","Initial funding",EUR 100.00,FINANCIAL,sponsorship-19
+
+# variantes de name
+donation-01,"X","Test donation",EUR 50.00,FINANCIAL,sponsorship-19
+donation-02,"AI","Test donation",EUR 75.00,FINANCIAL,sponsorship-19
+donation-03,"智能捐赠","Test donation",EUR 20.00,FINANCIAL,sponsorship-19
+donation-04,"<script>alert('x')</script>","Test donation",EUR 30.00,FINANCIAL,sponsorship-19
+donation-05,"' OR '1'='1","Test donation",EUR 40.00,FINANCIAL,sponsorship-19
+
+# variantes de notes
+donation-06,"Donation Notes","A",EUR 60.00,FINANCIAL,sponsorship-19
+donation-07,"Donation Notes","AI",EUR 70.00,FINANCIAL,sponsorship-19
+donation-08,"Donation Notes","能源支持",EUR 80.00,FINANCIAL,sponsorship-19
+donation-09,"Donation Notes","<marquee>note</marquee>",EUR 90.00,FINANCIAL,sponsorship-19
+donation-10,"Donation Notes","<script>alert('hack')</script>",EUR 110.00,FINANCIAL,sponsorship-19
+
+# variantes de money
+donation-11,"Low Money","Minimum value",EUR 0.01,FINANCIAL,sponsorship-20
+donation-12,"High Money","Max test",EUR 999999.99,FINANCIAL,sponsorship-20
+donation-13,"Decimal","Precision test",EUR 123.45,FINANCIAL,sponsorship-20
+
+# variantes de kind
+donation-14,"Financial Donation","Money donation",EUR 200.00,FINANCIAL,sponsorship-20
+donation-15,"In Kind Donation","Service donation",EUR 150.00,IN_KIND,sponsorship-20
+
+# edge varios
+donation-16,"Unicode","देवनागरी",EUR 10.00,FINANCIAL,sponsorship-20
+donation-17,"Arabic","نص",EUR 15.00,FINANCIAL,sponsorship-20
+donation-18,"SQLi","' OR 'A'='A",EUR 25.00,FINANCIAL,sponsorship-20key,name,notes,money,kind,key:sponsorship
+
+# base
+donation-00,"Donation Base","Initial funding",EUR 100.00,FINANCIAL,sponsorship-19
+
+# variantes de name
+donation-01,"X","Test donation",EUR 50.00,FINANCIAL,sponsorship-19
+donation-02,"AI","Test donation",EUR 75.00,FINANCIAL,sponsorship-19
+donation-03,"智能捐赠","Test donation",EUR 20.00,FINANCIAL,sponsorship-19
+donation-04,"<script>alert('x')</script>","Test donation",EUR 30.00,FINANCIAL,sponsorship-19
+donation-05,"' OR '1'='1","Test donation",EUR 40.00,FINANCIAL,sponsorship-19
+
+# variantes de notes
+donation-06,"Donation Notes","A",EUR 60.00,FINANCIAL,sponsorship-19
+donation-07,"Donation Notes","AI",EUR 70.00,FINANCIAL,sponsorship-19
+donation-08,"Donation Notes","能源支持",EUR 80.00,FINANCIAL,sponsorship-19
+donation-09,"Donation Notes","<marquee>note</marquee>",EUR 90.00,FINANCIAL,sponsorship-19
+donation-10,"Donation Notes","<script>alert('hack')</script>",EUR 110.00,FINANCIAL,sponsorship-19
+
+# variantes de money
+donation-11,"Low Money","Minimum value",EUR 0.01,FINANCIAL,sponsorship-20
+donation-12,"High Money","Max test",EUR 999999.99,FINANCIAL,sponsorship-20
+donation-13,"Decimal","Precision test",EUR 123.45,FINANCIAL,sponsorship-20
+
+# variantes de kind
+donation-14,"Financial Donation","Money donation",EUR 200.00,FINANCIAL,sponsorship-20
+donation-15,"In Kind Donation","Service donation",EUR 150.00,IN_KIND,sponsorship-20
+
+# edge varios
+donation-16,"Unicode","देवनागरी",EUR 10.00,FINANCIAL,sponsorship-20
+donation-17,"Arabic","نص",EUR 15.00,FINANCIAL,sponsorship-20
+donation-18,"SQLi","' OR 'A'='A",EUR 25.00,FINANCIAL,sponsorship-20
