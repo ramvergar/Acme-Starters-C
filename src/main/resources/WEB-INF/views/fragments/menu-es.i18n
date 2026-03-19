@@ -13,6 +13,16 @@
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.invention = Invenciones
+master.menu.anonymous.strategy = Estrategias
+
+# master.menu.any #############################################################
+
+master.menu.any = Cualquiera
+
+# master.menu.fundraiser #######################################################
+
+master.menu.fundraiser = Recaudador
+master.menu.fundraiser.strategy.list = Mis estrategias
 
 # master.menu.administrator ###################################################
 
@@ -22,25 +32,17 @@ master.menu.administrator.populate-db-initial = Poblar BD (inicial)
 master.menu.administrator.populate-db-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-system-down = Parar el sistema
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-
-# master.menu.inventor ##########################################################
+# master.menu.inventor ########################################################
 
 master.menu.inventor = Inventor
 master.menu.inventor.invention.list = Mis invenciones
-
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumidor
-master.menu.consumer.favourite-link = Enlace favorito
 
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-profile = Perfil general
+master.menu.user-account.become-fundraiser = Hazte recaudador
+master.menu.user-account.fundraiser-profile = Perfil de recaudador
 master.menu.user-account.become-provider = Hacerse proveedor
 master.menu.user-account.provider-profile = Perfil de proveedor
 master.menu.user-account.become-consumer = Hazte consumidor
