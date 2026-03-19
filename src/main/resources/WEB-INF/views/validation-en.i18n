@@ -21,8 +21,12 @@ acme.validation.strategy.endMoment.future = End date must be in the future
 
 acme.validation.tactic.sumPercentages = The sum of the percentages of the tactics must be lower or equal than 100.00
 
-# Sponsorship ###########################################################
+#Sponsor ############################
+# Sponsorship ####################
 
-acme.validation.sponsorship.duplicated-ticker.message = The sponsorship is duplicated
+acme.validation.sponsorship.duplicated-ticker.message = There is an existing sponsorship with this ticker
 acme.validation.sponsorship.timeInterval.message = Start/end moments must define a valid time interval
 acme.validation.sponsorship.donations.message = A Sponsorship can not be published unless they have at least one donation
+
+# Donation #######################
+acme.validation.donation.money.currency.message = Donation currency must be Euro (EUR)

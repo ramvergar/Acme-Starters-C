@@ -14,12 +14,21 @@ import acme.entities.sponsorships.SponsorshipRepository;
 @Validator
 public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sponsorship> {
 
+	// Internal state ---------------------------------------------------------
+
 	@Autowired
 	private SponsorshipRepository	repository;
 
 	@Autowired
 	private DonationRepository		donationRepository;
 
+	// ConstraintValidator interface ------------------------------------------
+
+
+	@Override
+	protected void initialise(final ValidSponsorship annotation) {
+		assert annotation != null;
+	}
 
 	@Override
 	public boolean isValid(final Sponsorship sponsorship, final ConstraintValidatorContext context) {
