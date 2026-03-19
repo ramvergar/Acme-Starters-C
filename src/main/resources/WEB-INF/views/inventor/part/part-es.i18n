@@ -1,0 +1,23 @@
+#Form ##################################################
+
+any.part.form.label.name = Nombre
+any.part.form.label.kind = Tipo
+any.part.form.label.description = Descripción
+any.part.form.label.cost = Coste
+
+inventor.part.form.button.create = Crear
+inventor.part.form.button.update = Editar
+inventor.part.form.button.delete = Eliminar
+
+any.part.form.title = Parte
+
+#List ###################################################
+
+inventor.part.list.label.name = Nombre
+inventor.part.list.label.kind = Tipo
+inventor.part.list.label.cost = Coste
+
+inventor.part.list.button.create= Crear
+
+
+inventor.part.list.title = Partes

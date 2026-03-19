@@ -12,6 +12,7 @@
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.invention = Invenciones
 
 # master.menu.administrator ###################################################
 
@@ -25,6 +26,11 @@ master.menu.administrator.shut-system-down = Parar el sistema
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
+
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.invention.list = Mis invenciones
 
 # master.menu.consumer ##########################################################
 
