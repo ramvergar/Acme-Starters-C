@@ -11,3 +11,12 @@
 acme.validation.header.message  	= Must have from 1 to 75 characters
 acme.validation.text.message   		= Must have from 1 to 255 characters
 acme.validation.ticker.message			  = The ticker must have letters, digits, underscores, and hyphens only
+
+# Strategy #############################################################
+acme.validation.strategy.duplicated-ticker.message = The strategy is duplicated
+acme.validation.strategy.tactics.error.message = A Strategy cannot be published unless they have at least one tactic
+acme.validation.strategy.dates.error = Start/end moments must define a valid time interval
+acme.validation.strategy.startMoment.future = Start date must be in the future
+acme.validation.strategy.endMoment.future = End date must be in the future
+
+acme.validation.tactic.sumPercentages = The sum of the percentages of the tactics must be lower or equal than 100.00
