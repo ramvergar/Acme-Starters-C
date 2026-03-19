@@ -20,3 +20,13 @@ acme.validation.strategy.startMoment.future = La fecha de inicio debe estar en e
 acme.validation.strategy.endMoment.future = La fecha de fin debe estar en el futuro
 
 acme.validation.tactic.sumPercentages = La suma de los porcentajes de las tácticas tiene que ser menor o igual que 100.00.
+
+#Sponsor ############################
+# Sponsorship ####################
+
+acme.validation.sponsorship.duplicated-ticker.message = Ya existe un patrocinio con esta referencia
+acme.validation.sponsorship.timeInterval.message = Las fechas de inicio y fin deben tener un momento válido
+acme.validation.sponsorship.donations.message = Un patrocinio no puede ser publicado a no ser que tengan una donación
+
+# Donation #######################
+acme.validation.donation.money.currency.message = La moneda de la donación debe ser en Euros (EUR)
