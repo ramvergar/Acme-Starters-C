@@ -52,20 +52,20 @@ strategy-40,fundraiser-02,KL46-TESTURL,"Expansión Europa 2026","Estrategia para
 strategy-41,fundraiser-02,KL47-TESTURL,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2026/06/01 10:00","2027/06/01 10:00","http://example.org/a/b?a&b",true
 ##Casos positivos para startMoment
 
-strategy-42,fundraiser-02,KL48-TESTDATE,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2000/01/01 00:00","2000/01/01 00:01","https://example.com/europa-2026",true
-strategy-61,fundraiser-02,KL48-TESTDATE2,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2000/01/01 00:01","2000/01/01 00:02","https://example.com/europa-2026",true
+strategy-42,fundraiser-02,KL48-TESTDATE,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:02","https://example.com/europa-2026",true
+strategy-61,fundraiser-02,KL48-TESTDATE2,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2199/01/01 00:02","https://example.com/europa-2026",true
 
-strategy-62,fundraiser-02,KL48-TESTDATE3,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2024/12/31 23:59","2025/01/01 00:00","https://example.com/europa-2026",true
+strategy-62,fundraiser-02,KL48-TESTDATE3,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:02","https://example.com/europa-2026",true
 strategy-63,fundraiser-02,KL48-TESTDATE4,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:01","https://example.com/europa-2026",true
 strategy-64,fundraiser-02,KL49-TESTDATE,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:01","2025/01/01 00:02","https://example.com/europa-2026",true
 
 strategy-65,fundraiser-02,KL50-TESTDATE,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2200/12/31 23:58","2200/12/31 23:59","https://example.com/europa-2026",true
 
 ## Casos positivos para endMoment
-strategy-66,fundraiser-02,KL48-TESTDATE5,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2000/01/01 00:00","2000/01/01 00:01","https://example.com/europa-2026",true
+strategy-66,fundraiser-02,KL48-TESTDATE5,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:02","https://example.com/europa-2026",true
 
-strategy-67,fundraiser-02,KL48-TESTDATE6,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2024/12/31 23:58","2024/12/31 23:59","https://example.com/europa-2026",true
-strategy-68,fundraiser-02,KL48-TESTDATE7,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2024/12/31 23:59","2025/01/01 00:00","https://example.com/europa-2026",true
+strategy-67,fundraiser-02,KL48-TESTDATE6,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:02","https://example.com/europa-2026",true
+strategy-68,fundraiser-02,KL48-TESTDATE7,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:02","https://example.com/europa-2026",true
 strategy-69,fundraiser-02,KL49-TESTDATE2,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2025/01/01 00:00","2025/01/01 00:01","https://example.com/europa-2026",true
 
 strategy-46,fundraiser-02,KL52-TESTDATE,"Expansión Europa 2026","Estrategia para ampliar operaciones en Europa occidental","2200/12/31 23:57","2200/12/31 23:58","https://example.com/europa-2026",true
