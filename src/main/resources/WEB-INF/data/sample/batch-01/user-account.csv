@@ -11,3 +11,8 @@ user-account-inventor-03,true,"UserIdentity{name: 'Angela', surname: 'Inventor',
 user-account-fundraiser-01,true,"UserIdentity{name: 'Alejandro', surname: 'Recaudador', email: 'ar@acme.com'}",fundraiser1,fundraiser1
 user-account-fundraiser-02,true,"UserIdentity{name: 'Luis', surname: 'Recaudador', email: 'lr@acme.com'}",fundraiser2,fundraiser2
 user-account-fundraiser-03,true,"UserIdentity{name: 'Pablo', surname: 'Recaudador', email: 'pr@acme.com'}",fundraiser3,fundraiser3
+user-account-administrator-02,true,"UserIdentity{name: 'Administrator', surname: 'Acme', email: 'administrator@acme.com'}",administrator1,administrator1
+user-account-administrator-03,true,"UserIdentity{name: 'Administrator', surname: 'Acme', email: 'administrator@acme.com'}",administrator2,administrator2
+user-account-sponsor-01,true,"UserIdentity{name: 'Alberto', surname: 'Patrocinador', email: 'sponsor1@acme.com'}",sponsor1,sponsor1
+user-account-sponsor-02,true,"UserIdentity{name: 'Natalia', surname: 'Patrocinadora', email: 'sponsor2@acme.com'}",sponsor2,sponsor2
+user-account-sponsor-03,true,"UserIdentity{name: 'Jose', surname: 'Patrocinador', email: 'sponsor3@acme.com'}",sponsor3,sponsor3

@@ -3,6 +3,7 @@ package acme.realms;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.validation.Valid;
 
 import acme.client.components.basis.AbstractRole;
 import acme.client.components.validation.Mandatory;
@@ -32,6 +33,7 @@ public class Sponsor extends AbstractRole {
 	private String				im;
 
 	@Mandatory
+	@Valid
 	@Column
-	private boolean				gold;
+	private Boolean				gold;
 }
