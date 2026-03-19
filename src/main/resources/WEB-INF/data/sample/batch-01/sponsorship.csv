@@ -1,34 +1,50 @@
 key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:sponsor
-
-## base
-sponsorship-00,"SP01-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
-
+# base
+sponsorship-00,"SP00-AAAAA"," AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
 # variantes de ticker
 sponsorship-01,"AA11-BBBBB","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
 sponsorship-02,"BB22-CCCCCC","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
-sponsorship-03,"CC33-DDDDD","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
-sponsorship-04,"DD44-EEEEEEEEEE","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
-
+sponsorship-03,"CC33-DDDDDDD","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-04,"DD44-EEEEEEEE","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-05,"DD44-FFFFFFFFF","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-06,"DD44-GGGGGGGGGG","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
 # variantes de name
-sponsorship-05,"EE55-AAAAA","X","Funding for systems","2025/02/01 00:00","2025/03/01 00:00","http://example.com/x",true,sponsor-01
-sponsorship-06,"FF66-AAAAA","AI","Funding for systems","2025/02/01 00:00","2025/03/01 00:00","http://example.com/x",true,sponsor-01
-sponsorship-07,"GG77-AAAAA","智能系统","Funding for systems","2025/02/01 00:00","2025/03/01 00:00","http://example.com/x",true,sponsor-01
-sponsorship-08,"HH88-AAAAA","نظام ذكي","Funding for systems","2025/02/01 00:00","2025/03/01 00:00","http://example.com/x",true,sponsor-01
-sponsorship-09,"II99-AAAAA","<script>alert('x')</script>","Funding for systems","2025/02/01 00:00","2025/03/01 00:00","http://example.com/x",true,sponsor-01
-sponsorship-10,"JJ10-AAAAA","' OR '1'='1","Funding for systems","2025/02/01 00:00","2025/03/01 00:00","http://example.com/x",true,sponsor-01
-
+sponsorship-07,"SP07-AAAAA","L","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-08,"SP08-AAAAA","Lo","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-09,"SP09-AAAAA","Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod t","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-10,"SP10-AAAAA","Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod te","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-11,"SP11-AAAAA","โลเร็ม อิปซัม","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-12,"SP12-AAAAA","洛伦·伊普森","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-13,"SP13-AAAAA","لوريم إيبسوم","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-14,"SP14-AAAAA","<marquee>Hacked</marquee>","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-15,"SP15-AAAAA","<script>alert(‘Hacked!’);</script>","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-16,"SP16-AAAAA","'' or 'A' = 'A ","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
 # variantes de description
-sponsorship-11,"KK11-AAAAA","Energy Project","A","2025/02/01 00:00","2025/03/01 00:00","http://example.com/e",true,sponsor-01
-sponsorship-12,"LL12-AAAAA","Energy Project","AI","2025/02/01 00:00","2025/03/01 00:00","http://example.com/e",true,sponsor-01
-sponsorship-13,"MM13-AAAAA","Energy Project","能源系统","2025/02/01 00:00","2025/03/01 00:00","http://example.com/e",true,sponsor-01
-sponsorship-14,"NN14-AAAAA","Energy Project","<marquee>energy</marquee>","2025/02/01 00:00","2025/03/01 00:00","http://example.com/e",true,sponsor-01
-sponsorship-15,"OO15-AAAAA","Energy Project","<script>alert('hack')</script>","2025/02/01 00:00","2025/03/01 00:00","http://example.com/e",true,sponsor-01
-
-# fechas edge
-sponsorship-16,"PP16-AAAAA","Edge Dates","Short interval","2025/01/01 00:00","2025/01/01 00:01","http://example.com/edge",true,sponsor-01
-sponsorship-17,"QQ17-AAAAA","Max Dates","Long interval","2200/12/31 23:58","2200/12/31 23:59","http://example.com/max",true,sponsor-01
-sponsorship-18,"RR18-AAAAA","Wide Range","Full range","2025/01/01 00:00","2200/12/31 23:59","http://example.com/full",true,sponsor-01
-
+sponsorship-17,"SP17-AAAAA","AI Sponsorship","L","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-18,"SP18-AAAAA","AI Sponsorship","Lo","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-19,"SP19-AAAAA","AI Sponsorship","Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-20,"SP20-AAAAA","AI Sponsorship","Lorem ipsum dolor sit amet; consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-21,"SP21-AAAAA","AI Sponsorship","โลเร็ม อิปซัม","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-22,"SP22-AAAAA","AI Sponsorship","وريم إيبسومs","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-23,"SP23-AAAAA","AI Sponsorship","洛伦·伊普森","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-24,"SP24-AAAAA","AI Sponsorship","<marquee>Hacked</marquee>","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-25,"SP25-AAAAA","AI Sponsorship","<script>alert(‘Hacked!’);</script>","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-26,"SP26-AAAAA","AI Sponsorship","'' or 'A' = 'A ","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
+# variantes de startMoment
+sponsorship-27,"SP27-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/02/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-28,"SP28-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:02","2025/02/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-29,"SP29-AAAAA","AI Sponsorship","Funding for AI projects","2200/12/31 23:57","2200/12/31 23:59","http://example.com/ai",true,sponsor-01
+sponsorship-30,"SP30-AAAAA","AI Sponsorship","Funding for AI projects","2200/12/31 23:58","2200/12/31 23:59","http://example.com/ai",true,sponsor-01
+# variantes de endMoment
+sponsorship-31,"SP31-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/01/01 00:02","http://example.com/ai",true,sponsor-01
+sponsorship-32,"SP32-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/01/01 00:03","http://example.com/ai",true,sponsor-01
+sponsorship-33,"SP33-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:01","2200/12/31 23:58","http://example.com/ai",true,sponsor-01
+sponsorship-34,"SP34-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:01","2200/12/31 23:59","http://example.com/ai",true,sponsor-01
+# variantes de moreInfo
+sponsorship-35,"SP35-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://a.b",true,sponsor-01
+sponsorship-36,"SP36-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://example.org?a&b",true,sponsor-01
+sponsorship-37,"SP37-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://www.lorem-ipsum.org/dolor/sit/amet/consectetur/adipiscing/elit/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",true,sponsor-01
+sponsorship-38,"SP38-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:00","2025/03/01 00:00","http://lorem.com/ipsum",true,sponsor-01
 # publicadas (deben tener donations)
-sponsorship-19,"SS19-AAAAA","Published Sponsorship","Has donations","2025/02/01 00:00","2025/03/01 00:00","http://example.com/pub",false,sponsor-01
-sponsorship-20,"TT20-AAAAA","Another Published","Has donations","2025/02/01 00:00","2025/03/01 00:00","http://example.com/pub2",false,sponsor-01
+sponsorship-39,"SP39-AAAAA","Published Sponsorship","Has donations","2025/02/01 00:00","2025/03/01 00:00","http://example.com/pub",false,sponsor-01
+sponsorship-40,"SP40-AAAAA","Another Published","Has donations","2025/02/01 00:00","2025/03/01 00:00","http://example.com/pub2",false,sponsor-02
