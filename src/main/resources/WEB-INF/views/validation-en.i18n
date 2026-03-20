@@ -12,6 +12,15 @@ acme.validation.header.message  	= Must have from 1 to 75 characters
 acme.validation.text.message   		= Must have from 1 to 255 characters
 acme.validation.ticker.message 		= The ticker must have letters, digits, underscores, and hyphens only
 
+# Invention ############################################################
+acme.validation.invention.parts.message = The invention must have at least one part
+acme.validation.invention.dates.message = To publish an invention, both dates must be in the future
+acme.validation.invention.ticker.non-unique = The ticker is already used by another invention
+acme.validation.invention.monthsActive.message = The active months cannot be negative or null
+acme.validation.invention.cost.message = The cost must be a positive value in EUR
+acme.validation.invention.parts.message = The currency of the parts must be EUR
+acme.validation.invention.timeInterval.message = The time interval is incorrect
+
 # Campaign ############################################################
 spokesperson.campaign.form.error.duplicated-ticker = The ticker already exists.
 spokesperson.campaign.form.error.invalid-period = The end moment must be after the start moment.

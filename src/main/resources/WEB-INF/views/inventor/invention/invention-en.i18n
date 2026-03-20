@@ -29,3 +29,9 @@ inventor.invention.list.label.endMoment= End Moment
 inventor.invention.list.button.create = Create
 
 inventor.invention.list.title = Inventions
+
+#errors #################################################
+
+invention.publish.validation.hasAtLeastOnePart = Before publishing, the invention must have at least one part
+invention.publish.validation.validStartMoment = The start moment must be in the future
+invention.publish.validation.validEndMoment = The end moment must be in the future
