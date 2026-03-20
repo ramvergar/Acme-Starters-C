@@ -11,14 +11,10 @@ import acme.realms.Inventor;
 @Service
 public class InventorInventionUpdateService extends AbstractService<Inventor, Invention> {
 
-	// Internal state ---------------------------------------------------------
-
 	@Autowired
 	private InventorInventionRepository	repository;
 
 	private Invention					invention;
-
-	// AbstractService interface ----------------------------------------------
 
 
 	@Override
