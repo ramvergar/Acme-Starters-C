@@ -1,9 +1,12 @@
 
 package acme.features.spokesperson.campaign;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.campaigns.Campaign;
 import acme.realms.Spokesperson;
@@ -53,6 +56,35 @@ public class SpokespersonCampaignPublishService extends AbstractService<Spokespe
 
 		if (this.campaign.getStartMoment() != null && this.campaign.getEndMoment() != null)
 			super.state(this.campaign.getStartMoment().before(this.campaign.getEndMoment()), "endMoment", "spokesperson.campaign.form.error.invalid-period");
+
+		{
+			Date start;
+			Date end;
+			boolean validInterval;
+
+			start = this.campaign.getStartMoment();
+			end = this.campaign.getEndMoment();
+			validInterval = start != null && end != null && MomentHelper.isAfter(end, start);
+			super.state(validInterval, "startMoment", "acme.validation.campaign.dates.error-publish");
+		}
+
+		{
+			Date now;
+			Date start;
+			Date end;
+			boolean startInFuture;
+			boolean endInFuture;
+
+			now = MomentHelper.getCurrentMoment();
+			start = this.campaign.getStartMoment();
+			end = this.campaign.getEndMoment();
+
+			startInFuture = start != null && MomentHelper.isAfter(start, now);
+			super.state(startInFuture, "startMoment", "acme.validation.campaign.startMoment.future");
+
+			endInFuture = end != null && MomentHelper.isAfter(end, now);
+			super.state(endInFuture, "endMoment", "acme.validation.campaign.endMoment.future");
+		}
 	}
 
 	@Override

@@ -1,11 +1,13 @@
 
 package acme.entities.campaigns;
 
+import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
@@ -15,7 +17,6 @@ import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
-import acme.client.components.validation.ValidMoment.Constraint;
 import acme.client.components.validation.ValidNumber;
 import acme.client.components.validation.ValidUrl;
 import acme.constraints.ValidHeader;
@@ -48,12 +49,12 @@ public class Campaign extends AbstractEntity {
 	private String				description;
 
 	@Mandatory
-	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				startMoment;
 
 	@Mandatory
-	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				endMoment;
 
@@ -87,8 +88,16 @@ public class Campaign extends AbstractEntity {
 		return result;
 	}
 
+
+	@OneToMany(mappedBy = "campaign")
+	private Collection<Milestone> milestones;
+
+
 	@Transient
 	public Double getEffort() {
-		return 0.0;
+		if (this.milestones == null || this.milestones.isEmpty())
+			return 0.0;
+
+		return this.milestones.stream().filter(m -> m.getEffort() != null).mapToDouble(Milestone::getEffort).sum();
 	}
 }

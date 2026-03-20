@@ -26,6 +26,11 @@ acme.validation.invention.timeInterval.message = El intervalo de tiempo es incor
 spokesperson.campaign.form.error.duplicated-ticker = El código ya existe.
 spokesperson.campaign.form.error.invalid-period = La fecha de fin debe ser posterior a la fecha de inicio.
 spokesperson.campaign.form.error.no-milestones = Una campaña debe tener al menos un hito antes de ser publicada.
+acme.validation.campaign.invalid-interval = Las fechas de inicio y fin deben definir un intervalo válido en el futuro
+acme.validation.campaign.effort-not-positive = El esfuerzo total de la campaña debe ser positivo cuando se publique
+acme.validation.campaign.startMoment.future     = La fecha de inicio debe estar en el futuro
+acme.validation.campaign.endMoment.future       = La fecha de fin debe estar en el futuro
+acme.validation.campaign.dates.error-publish = Las fechas de inicio y fin deben definir un intervalo válido de tiempo
 # Strategy ######################################################
 acme.validation.strategy.duplicated-ticker.message = La Estrategia está duplicada
 acme.validation.strategy.tactics.error.message = Una Estrategia no puede publicarse a menos que tenga al menos una táctica
