@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Authenticated;
+import acme.client.components.views.SelectChoices;
 import acme.client.helpers.PrincipalHelper;
 import acme.client.services.AbstractService;
 import acme.realms.Sponsor;
@@ -55,7 +56,21 @@ public class AuthenticatedSponsorUpdateService extends AbstractService<Authentic
 
 	@Override
 	public void unbind() {
+		SelectChoices goldChoices;
+
+		goldChoices = this.getGoldChoices(this.sponsor.getGold());
 		super.unbindObject(this.sponsor, "address", "im", "gold");
+		super.getResponse().addGlobal("goldChoices", goldChoices);
+	}
+
+	private SelectChoices getGoldChoices(final Boolean selected) {
+		SelectChoices result;
+
+		result = new SelectChoices();
+		result.add("false", "authenticated.sponsor.form.value.false", Boolean.FALSE.equals(selected));
+		result.add("true", "authenticated.sponsor.form.value.true", Boolean.TRUE.equals(selected));
+
+		return result;
 	}
 
 	@Override

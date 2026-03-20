@@ -4,7 +4,6 @@ package acme.features.sponsor.sponsorship;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.client.components.models.Tuple;
 import acme.client.services.AbstractService;
 import acme.entities.sponsorships.Sponsorship;
 import acme.realms.Sponsor;
@@ -51,15 +50,6 @@ public class SponsorSponsorshipCreateService extends AbstractService<Sponsor, Sp
 	public void validate() {
 		super.validateObject(this.sponsorship);
 
-		boolean duplicatedTicker;
-		boolean validPeriod;
-
-		duplicatedTicker = this.repository.findSponsorshipByTicker(this.sponsorship.getTicker()) != null;
-		super.state(!duplicatedTicker, "ticker", "sponsor.sponsorship.form.error.duplicated-ticker");
-
-		validPeriod = this.sponsorship.getStartMoment() != null && this.sponsorship.getEndMoment() != null && this.sponsorship.getStartMoment().before(this.sponsorship.getEndMoment());
-		super.state(validPeriod, "endMoment", "sponsor.sponsorship.form.error.invalid-period");
-
 	}
 
 	@Override
@@ -69,11 +59,7 @@ public class SponsorSponsorshipCreateService extends AbstractService<Sponsor, Sp
 
 	@Override
 	public void unbind() {
-		Tuple tuple;
-
-		tuple = super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode");
-		tuple.put("monthsActive", this.sponsorship.monthsActive());
-		tuple.put("totalMoney", this.sponsorship.totalMoney());
+		super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode");
 		super.unbindGlobal("sponsorId", this.sponsorship.getSponsor().getId());
 	}
 }

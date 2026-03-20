@@ -7,6 +7,6 @@
 <acme:form-textbox code="any.sponsor.form.label.userAccount.username" path="userAccount.username"/>
 <acme:form-textarea code="any.sponsor.form.label.address" path="address"/>
 <acme:form-textbox code="any.sponsor.form.label.im" path="im"/>
-<acme:form-textarea code="any.sponsor.form.label.gold" path="gold"/>
+<acme:form-textbox code="any.sponsor.form.label.gold" path="gold"/>
 
 </acme:form>

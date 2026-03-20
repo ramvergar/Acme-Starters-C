@@ -53,23 +53,12 @@ public class SponsorSponsorshipPublishService extends AbstractService<Sponsor, S
 
 	@Override
 	public void validate() {
-		boolean duplicatedTicker;
-		boolean validPeriod;
 		super.validateObject(this.sponsorship);
 
-		duplicatedTicker = this.repository.findSponsorshipByTicker(this.sponsorship.getTicker()) != null && this.repository.findSponsorshipByTicker(this.sponsorship.getTicker()).getId() != this.sponsorship.getId();
-
-		super.state(!duplicatedTicker, "ticker", "sponsor.sponsorship.form.error.duplicated-ticker");
-
-		validPeriod = this.sponsorship.getStartMoment().before(this.sponsorship.getEndMoment());
-		super.state(validPeriod, "endMoment", "sponsor.sponsorship.form.error.invalid-period");
-
 		boolean hasDonations;
-
 		hasDonations = this.repository.countDonationsBySponsorshipId(this.sponsorship.getId()) > 0;
 
 		super.state(hasDonations, "*", "sponsor.sponsorship.form.error.no-donations");
-
 	}
 
 	@Override
@@ -82,7 +71,7 @@ public class SponsorSponsorshipPublishService extends AbstractService<Sponsor, S
 	public void unbind() {
 		Tuple tuple;
 
-		tuple = super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "totalMoney", "monthsActive", "draftMode");
+		tuple = super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode");
 		tuple.put("monthsActive", this.sponsorship.monthsActive());
 		tuple.put("totalMoney", this.sponsorship.totalMoney());
 		super.unbindGlobal("sponsorId", this.sponsorship.getSponsor().getId());

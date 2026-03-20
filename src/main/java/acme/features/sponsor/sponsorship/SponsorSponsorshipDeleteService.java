@@ -35,12 +35,14 @@ public class SponsorSponsorshipDeleteService extends AbstractService<Sponsor, Sp
 
 	@Override
 	public void authorise() {
-		boolean status;
+		boolean status = false;
 
-		boolean createdByThePrincipal;
-		createdByThePrincipal = this.sponsorship.getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
+		if (this.sponsorship != null) {
+			boolean createdByThePrincipal;
+			createdByThePrincipal = this.sponsorship.getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
 
-		status = this.sponsorship != null && createdByThePrincipal && this.sponsorship.getDraftMode();
+			status = createdByThePrincipal && this.sponsorship.getDraftMode();
+		}
 
 		super.setAuthorised(status);
 	}

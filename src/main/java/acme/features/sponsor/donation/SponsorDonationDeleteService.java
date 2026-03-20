@@ -29,12 +29,13 @@ public class SponsorDonationDeleteService extends AbstractService<Sponsor, Donat
 
 	@Override
 	public void authorise() {
-		boolean status;
+		boolean status = false;
 
-		boolean createdByPrincipal;
-		createdByPrincipal = this.donation.getSponsorship().getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
-
-		status = this.donation != null && createdByPrincipal && this.donation.getSponsorship().getDraftMode();
+		if (this.donation != null) {
+			boolean createdByPrincipal;
+			createdByPrincipal = this.donation.getSponsorship().getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
+			status = createdByPrincipal && this.donation.getSponsorship().getDraftMode();
+		}
 
 		super.setAuthorised(status);
 
@@ -52,7 +53,7 @@ public class SponsorDonationDeleteService extends AbstractService<Sponsor, Donat
 
 	@Override
 	public void execute() {
-		this.repository.save(this.donation);
+		this.repository.delete(this.donation);
 	}
 
 	@Override

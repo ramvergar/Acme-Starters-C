@@ -27,6 +27,18 @@ public class SponsorDonationCreateService extends AbstractService<Sponsor, Donat
 
 
 	@Override
+	public void authorise() {
+		boolean status;
+		int sponsorshipId;
+
+		sponsorshipId = super.getRequest().getData("sponsorshipId", int.class);
+		this.sponsorship = this.repository.findSponsorshipById(sponsorshipId);
+
+		status = this.sponsorship != null && this.sponsorship.getDraftMode() && this.sponsorship.getSponsor().isPrincipal();
+		super.getResponse().setAuthorised(status);
+	}
+
+	@Override
 	public void load() {
 		int id = this.getRequest().getData("sponsorshipId", int.class);
 		this.sponsorship = this.sponsorshipRepository.findSponsorshipById(id);
@@ -34,23 +46,6 @@ public class SponsorDonationCreateService extends AbstractService<Sponsor, Donat
 		this.donation = super.newObject(Donation.class);
 		this.donation.setSponsorship(this.sponsorship);
 
-	}
-
-	@Override
-	public void authorise() {
-		boolean status;
-		String method;
-		boolean sponsorshipCreatedByPrincipal;
-
-		method = super.getRequest().getMethod();
-
-		if (method.equals("GET"))
-			status = true;
-		else {
-			sponsorshipCreatedByPrincipal = this.donation.getSponsorship().getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
-			status = this.donation.getSponsorship().getDraftMode() && sponsorshipCreatedByPrincipal;
-		}
-		super.setAuthorised(status);
 	}
 
 	@Override
@@ -62,17 +57,6 @@ public class SponsorDonationCreateService extends AbstractService<Sponsor, Donat
 	public void validate() {
 
 		super.validateObject(this.donation);
-
-		boolean validCurrency;
-
-		if (this.donation.getMoney() == null)
-			validCurrency = true;
-		else if (this.donation.getMoney().getCurrency() == null)
-			validCurrency = true;
-		else
-			validCurrency = this.donation.getMoney().getCurrency().equalsIgnoreCase("EUR");
-
-		super.state(validCurrency, "money", "sponsor.donation.form.error.currency");
 
 	}
 

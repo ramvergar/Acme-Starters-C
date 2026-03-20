@@ -17,13 +17,12 @@ public class SponsorSponsorshipController extends AbstractController<Sponsor, Sp
 	@PostConstruct
 	protected void initialise() {
 		super.setMediaType(MediaType.TEXT_HTML);
-
 		super.addBasicCommand("list", SponsorSponsorshipListService.class);
 		super.addBasicCommand("show", SponsorSponsorshipShowService.class);
 		super.addBasicCommand("create", SponsorSponsorshipCreateService.class);
 		super.addBasicCommand("update", SponsorSponsorshipUpdateService.class);
 		super.addBasicCommand("delete", SponsorSponsorshipDeleteService.class);
-		super.addBasicCommand("publish", SponsorSponsorshipPublishService.class);
+		super.addCustomCommand("publish", "update", SponsorSponsorshipPublishService.class);
 	}
 
 }

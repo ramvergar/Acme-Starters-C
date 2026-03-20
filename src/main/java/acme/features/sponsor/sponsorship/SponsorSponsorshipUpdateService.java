@@ -24,13 +24,13 @@ public class SponsorSponsorshipUpdateService extends AbstractService<Sponsor, Sp
 
 	@Override
 	public void authorise() {
-		boolean status;
-		int id;
-		Sponsorship sponsorship;
+		boolean status = false;
 
-		id = super.getRequest().getData("id", int.class);
-		sponsorship = this.repository.findSponsorshipById(id);
-		status = sponsorship != null && sponsorship.getDraftMode() && sponsorship.getSponsor().isPrincipal();
+		if (this.sponsorship != null) {
+			boolean createdByPrincipal;
+			createdByPrincipal = this.sponsorship.getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
+			status = this.sponsorship.getDraftMode() && createdByPrincipal;
+		}
 
 		super.setAuthorised(status);
 	}
@@ -52,14 +52,6 @@ public class SponsorSponsorshipUpdateService extends AbstractService<Sponsor, Sp
 	public void validate() {
 		super.validateObject(this.sponsorship);
 
-		boolean duplicatedTicker;
-		boolean validPeriod;
-
-		duplicatedTicker = this.repository.findSponsorshipByTicker(this.sponsorship.getTicker()) != null;
-		super.state(!duplicatedTicker, "ticker", "sponsor.sponsorship.form.error.duplicated-ticker");
-
-		validPeriod = this.sponsorship.getStartMoment() != null && this.sponsorship.getEndMoment() != null && this.sponsorship.getStartMoment().before(this.sponsorship.getEndMoment());
-		super.state(validPeriod, "endMoment", "sponsor.sponsorship.form.error.invalid-period");
 	}
 
 	@Override

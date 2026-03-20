@@ -53,17 +53,6 @@ public class SponsorDonationUpdateService extends AbstractService<Sponsor, Donat
 
 		super.validateObject(this.donation);
 
-		boolean validCurrency;
-
-		if (this.donation.getMoney() == null)
-			validCurrency = true;
-		else if (this.donation.getMoney().getCurrency() == null)
-			validCurrency = true;
-		else
-			validCurrency = this.donation.getMoney().getCurrency().equalsIgnoreCase("EUR");
-
-		super.state(validCurrency, "money", "sponsor.donation.form.error.currency");
-
 	}
 
 	@Override

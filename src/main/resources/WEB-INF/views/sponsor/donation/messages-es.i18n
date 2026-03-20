@@ -1,7 +1,7 @@
 # messages-es.i18n
 
-sponsor.donation.form.title = Donation form
-sponsor.donation.list.title = Listing of Donations
+sponsor.donation.form.title = Formulario de donación
+sponsor.donation.list.title = Listado de donaciones
 
 sponsor.donation.form.label.name = Nombre:
 sponsor.donation.form.label.notes = Apuntes:
@@ -10,8 +10,10 @@ sponsor.donation.form.label.kind = Tipo:
 
 sponsor.donation.form.button.update = Actualizar
 sponsor.donation.form.button.delete = Eliminar
+sponsor.donation.form.button.create = Crear
 
 sponsor.donation.list.label.name = Nombre
 sponsor.donation.list.label.notes = Apuntes
 sponsor.donation.list.label.money = Dinero
 sponsor.donation.list.label.kind = Tipo
+sponsor.donation.list.button.create = Crear

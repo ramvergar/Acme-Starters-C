@@ -4,6 +4,7 @@ package acme.features.sponsor.sponsorship;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
 import acme.client.services.AbstractService;
 import acme.entities.sponsorships.Sponsorship;
 import acme.realms.Sponsor;
@@ -30,16 +31,22 @@ public class SponsorSponsorshipShowService extends AbstractService<Sponsor, Spon
 
 	@Override
 	public void authorise() {
-		boolean status;
+		boolean status = false;
 
-		status = this.sponsorship != null && this.sponsorship.getSponsor().isPrincipal();
+		if (this.sponsorship != null)
+			status = this.sponsorship.getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
 
 		super.setAuthorised(status);
 	}
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode", "totalMoney", "monthsActive");
+		Tuple tuple;
+
+		tuple = super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode");
+
+		tuple.put("totalMoney", this.sponsorship.totalMoney());
+		tuple.put("monthsActive", this.sponsorship.monthsActive());
 		super.unbindGlobal("sponsorId", this.sponsorship.getSponsor().getId());
 	}
 

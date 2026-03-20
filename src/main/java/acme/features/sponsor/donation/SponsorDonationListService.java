@@ -44,12 +44,12 @@ public class SponsorDonationListService extends AbstractService<Sponsor, Donatio
 	@Override
 	public void unbind() {
 		boolean showCreate;
-
-		showCreate = this.sponsorship.getDraftMode() && this.sponsorship.getSponsor().isPrincipal();
-
-		super.unbindObjects(this.donations, "name", "money", "kind", "notes");
+		boolean createdByPrincipal;
+		createdByPrincipal = this.sponsorship.getSponsor().getId() == super.getRequest().getPrincipal().getActiveRealm().getId();
+		showCreate = this.sponsorship.getDraftMode() && createdByPrincipal;
+		super.unbindObjects(this.donations, "name", "notes", "money", "kind");
 		super.unbindGlobal("draftMode", this.sponsorship.getDraftMode());
-		super.unbindGlobal("inventionId", this.sponsorship.getId());
+		super.unbindGlobal("sponsorshipId", this.sponsorship.getId());
 		super.unbindGlobal("showCreate", showCreate);
 
 	}

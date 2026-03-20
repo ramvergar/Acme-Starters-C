@@ -31,13 +31,13 @@ sponsorship-24,"SP24-AAAAA","AI Sponsorship","<marquee>Hacked</marquee>","2025/0
 sponsorship-25,"SP25-AAAAA","AI Sponsorship","<script>alert(‘Hacked!’);</script>","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
 sponsorship-26,"SP26-AAAAA","AI Sponsorship","'' or 'A' = 'A ","2025/02/01 00:00","2025/03/01 00:00","http://example.com/ai",true,sponsor-01
 # variantes de startMoment
-sponsorship-27,"SP27-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/02/01 00:00","http://example.com/ai",true,sponsor-01
-sponsorship-28,"SP28-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:02","2025/02/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-27,"SP27-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:00","2025/02/01 00:00","http://example.com/ai",true,sponsor-01
+sponsorship-28,"SP28-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/02/01 00:00","http://example.com/ai",true,sponsor-01
 sponsorship-29,"SP29-AAAAA","AI Sponsorship","Funding for AI projects","2200/12/31 23:57","2200/12/31 23:59","http://example.com/ai",true,sponsor-01
 sponsorship-30,"SP30-AAAAA","AI Sponsorship","Funding for AI projects","2200/12/31 23:58","2200/12/31 23:59","http://example.com/ai",true,sponsor-01
 # variantes de endMoment
-sponsorship-31,"SP31-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/01/01 00:02","http://example.com/ai",true,sponsor-01
-sponsorship-32,"SP32-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/01/01 00:03","http://example.com/ai",true,sponsor-01
+sponsorship-31,"SP31-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:00","2025/01/01 00:01","http://example.com/ai",true,sponsor-01
+sponsorship-32,"SP32-AAAAA","AI Sponsorship","Funding for AI projects","2025/01/01 00:01","2025/01/01 00:02","http://example.com/ai",true,sponsor-01
 sponsorship-33,"SP33-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:01","2200/12/31 23:58","http://example.com/ai",true,sponsor-01
 sponsorship-34,"SP34-AAAAA","AI Sponsorship","Funding for AI projects","2025/02/01 00:01","2200/12/31 23:59","http://example.com/ai",true,sponsor-01
 # variantes de moreInfo

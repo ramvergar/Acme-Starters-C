@@ -6,3 +6,5 @@ any.sponsor.form.label.address = Address
 any.sponsor.form.label.im= About me
 any.sponsor.form.label.gold= Gold
 any.sponsor.form.label.userAccount.username = Username
+sponsor.gold.true = True
+sponsor.gold.false = False
