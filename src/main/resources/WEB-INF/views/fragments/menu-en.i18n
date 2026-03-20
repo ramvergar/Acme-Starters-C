@@ -15,6 +15,7 @@ master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.invention = Inventions
 master.menu.anonymous.strategy = Strategies
 master.menu.anonymous.sponsorship = Sponsorships
+master.menu.anonymous.list-campaigns = Campaigns
 
 # master.menu.any #############################################################
 
@@ -33,6 +34,10 @@ master.menu.administrator.populate-db-initial = Populate DB (initial)
 master.menu.administrator.populate-db-sample = Populate DB (samples)
 master.menu.administrator.shut-system-down = Shut system down
 
+# master.menu.spokesperson ####################################################
+
+master.menu.spokesperson = Spokesperson
+master.menu.spokesperson.list-campaigns = My campaigns
 
 # master.menu.inventor ########################################################
 
@@ -55,3 +60,5 @@ master.menu.user-account.become-inventor = Become inventor
 master.menu.user-account.inventor-profile = Inventor profile
 master.menu.user-account.become-sponsor = Become a sponsor
 master.menu.user-account.sponsor-profile = Sponsor profile
+master.menu.user-account.become-spokesperson = Become a spokesperson
+master.menu.user-account.spokesperson-profile = Spokesperson profile
