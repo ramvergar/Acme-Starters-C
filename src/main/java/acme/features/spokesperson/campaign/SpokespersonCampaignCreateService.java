@@ -48,9 +48,6 @@ public class SpokespersonCampaignCreateService extends AbstractService<Spokesper
 		if (existingCampaign != null)
 			super.state(false, "ticker", "spokesperson.campaign.form.error.duplicated-ticker");
 
-		if (this.campaign.getStartMoment() != null && this.campaign.getEndMoment() != null)
-			super.state(this.campaign.getStartMoment().before(this.campaign.getEndMoment()), "endMoment", "spokesperson.campaign.form.error.invalid-period");
-
 		super.validateObject(this.campaign);
 	}
 

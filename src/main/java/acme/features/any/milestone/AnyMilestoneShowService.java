@@ -5,8 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
+import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
-import acme.entities.campaigns.Campaign;
+import acme.datatypes.MilestoneKind;
 import acme.entities.campaigns.Milestone;
 
 @Service
@@ -16,8 +17,6 @@ public class AnyMilestoneShowService extends AbstractService<Any, Milestone> {
 	private AnyMilestoneRepository	repository;
 
 	private Milestone				milestone;
-
-	private Campaign				campaign;
 
 
 	@Override
@@ -54,6 +53,10 @@ public class AnyMilestoneShowService extends AbstractService<Any, Milestone> {
 	@Override
 	public void unbind() {
 		super.unbindObject(this.milestone, "title", "achievements", "effort", "kind");
+		SelectChoices choices;
+		choices = SelectChoices.from(MilestoneKind.class, this.milestone.getKind());
+
+		super.getResponse().addGlobal("kinds", choices);
 
 	}
 }
