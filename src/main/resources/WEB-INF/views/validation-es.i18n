@@ -11,7 +11,11 @@
 acme.validation.header.message  	= Debe tener entre 1 y 75 caracteres
 acme.validation.text.message   		= Debe tener entre 1 y 255 caracteres 
 acme.validation.ticker.message			   = La referencia sólo puede contener letras, dígitos, subrayados y guiones
+# Campaign ######################################################
 
+spokesperson.campaign.form.error.duplicated-ticker = El código ya existe.
+spokesperson.campaign.form.error.invalid-period = La fecha de fin debe ser posterior a la fecha de inicio.
+spokesperson.campaign.form.error.no-milestones = Una campaña debe tener al menos un hito antes de ser publicada.
 # Strategy ######################################################
 acme.validation.strategy.duplicated-ticker.message = La Estrategia está duplicada
 acme.validation.strategy.tactics.error.message = Una Estrategia no puede publicarse a menos que tenga al menos una táctica

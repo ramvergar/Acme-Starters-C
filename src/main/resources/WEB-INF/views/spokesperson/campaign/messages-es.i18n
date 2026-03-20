@@ -1,0 +1,36 @@
+spokesperson.campaign.form.label.ticker = Código
+spokesperson.campaign.form.label.name = Nombre
+spokesperson.campaign.form.label.description = Descripción
+spokesperson.campaign.form.label.startMoment = Fecha de inicio
+spokesperson.campaign.form.label.endMoment = Fecha de fin
+spokesperson.campaign.form.label.moreInfo = Más información
+spokesperson.campaign.form.label.draftMode = Modo borrador
+
+spokesperson.campaign.form.button.create = Crear
+spokesperson.campaign.form.button.update = Actualizar
+spokesperson.campaign.form.button.delete = Eliminar
+spokesperson.campaign.form.button.publish = Publicar
+spokesperson.campaign.form.button.milestones = Ver hitos
+spokesperson.campaign.form.button.update-link = Ir a actualizar
+spokesperson.campaign.form.button.delete-link = Ir a eliminar
+spokesperson.campaign.form.button.publish-link = Ir a publicar
+
+spokesperson.campaign.form.title = Mi campaña
+
+spokesperson.campaign.list.title = Mis campañas
+spokesperson.campaign.list.label.ticker = Código
+spokesperson.campaign.list.label.name = Nombre
+spokesperson.campaign.list.label.description = Descripción
+spokesperson.campaign.list.label.startMoment = Fecha de inicio
+spokesperson.campaign.list.label.endMoment = Fecha de fin
+spokesperson.campaign.list.label.moreInfo = Más información
+spokesperson.campaign.list.label.draftMode = Modo borrador
+
+spokesperson.campaign.list.button.create = Crear
+spokesperson.campaign.list.button.update = Actualizar
+spokesperson.campaign.list.button.delete = Eliminar
+spokesperson.campaign.list.button.publish = Publicar
+spokesperson.campaign.list.button.milestones = Ver hitos
+spokesperson.campaign.list.button.update-link = Ir a actualizar
+spokesperson.campaign.list.button.delete-link = Ir a eliminar
+spokesperson.campaign.list.button.publish-link = Ir a publicar

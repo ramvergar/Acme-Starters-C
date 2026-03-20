@@ -1,0 +1,24 @@
+any.campaign.form.label.ticker = Código
+any.campaign.form.title = Formulario de campaña
+any.campaign.form.label.name = Nombre
+any.campaign.form.label.description = Descripción
+any.campaign.form.label.startMoment = Fecha de inicio
+any.campaign.form.label.endMoment = Fecha de fin
+any.campaign.form.label.moreInfo = Más información
+any.campaign.form.label.draftMode = Modo borrador
+any.campaign.form.button.milestones = Ver hitos
+any.campaign.form.button.spokesperson = Ver perfil del portavoz
+
+any.campaign.list.label.ticker = Código
+any.campaign.list.title = Campañas
+any.campaign.list.label.name = Nombre
+any.campaign.list.label.description = Descripción
+any.campaign.list.label.startMoment = Fecha de inicio
+any.campaign.list.label.endMoment = Fecha de fin
+any.campaign.list.label.moreInfo = Más información
+any.campaign.list.label.draftMode = Modo borrador
+any.campaign.list.button.milestones = Ver hitos
+any.campaign.list.button.spokesperson = Ver perfil del portavoz
+
+spokesperson.campaign.form.label.monthsActive = Meses activos
+spokesperson.campaign.form.label.effort = Esfuerzo

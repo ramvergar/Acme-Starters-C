@@ -1,0 +1,38 @@
+key,version,title,achievements,effort,kind,key:campaign
+
+# base
+milestone-00,1,"Initial teaser","First valid milestone with a simple title and achievements.",0.01,TEASER,campaign-00
+
+# title variants (valid headers)
+milestone-01,1,"A","Achievement text for minimum valid header.",0.01,TEASER,campaign-01
+milestone-02,1,"AI","Achievement text for two-character header.",0.02,ENGAGING,campaign-02
+milestone-03,1,"Control","Achievement text for medium header.",1.00,CONVERSION,campaign-03
+milestone-04,1,"Sistema avanzado de promoción energética urbana","Achievement text for long valid header.",10.50,TEASER,campaign-04
+milestone-05,1,"نظام ذكي","Achievement text with Arabic title.",2.50,ENGAGING,campaign-05
+milestone-06,1,"智能系统","Achievement text with Chinese title.",3.75,CONVERSION,campaign-06
+milestone-07,1,"ระบบอัจฉริยะ","Achievement text with Thai title.",4.00,TEASER,campaign-07
+
+# achievements variants (valid text)
+milestone-08,1,"Short text","A",0.10,TEASER,campaign-08
+milestone-09,1,"Two chars","AI",0.20,ENGAGING,campaign-09
+milestone-10,1,"Long text","Distributed outreach actions improved public engagement and campaign visibility across channels.",5.00,CONVERSION,campaign-10
+milestone-11,1,"Thai text","ระบบพลังงาน",6.00,TEASER,campaign-11
+milestone-12,1,"Arabic text","نظام الطاقة",7.00,ENGAGING,campaign-12
+milestone-13,1,"Chinese text","能源系统",8.00,CONVERSION,campaign-13
+
+# effort variants (valid positive numbers)
+milestone-14,1,"Min effort","Positive edge value close to zero.",0.01,TEASER,campaign-14
+milestone-15,1,"Small effort","Small positive effort.",0.02,ENGAGING,campaign-15
+milestone-16,1,"Normal effort","Medium effort milestone.",18.50,CONVERSION,campaign-16
+milestone-17,1,"Large effort","High but still valid effort.",999999.98,TEASER,campaign-17
+milestone-18,1,"Upper edge","Upper edge effort value.",999999.99,ENGAGING,campaign-18
+
+# enum variants
+milestone-19,1,"Teaser stage","Testing TEASER enum.",1.00,TEASER,campaign-19
+milestone-20,1,"Engaging stage","Testing ENGAGING enum.",2.00,ENGAGING,campaign-20
+milestone-21,1,"Conversion stage","Testing CONVERSION enum.",3.00,CONVERSION,campaign-21
+
+# campaign relation variants
+milestone-22,1,"Published relation","Milestone linked to published campaign.",4.00,TEASER,campaign-27
+milestone-23,1,"Draft relation","Milestone linked to draft campaign.",5.00,ENGAGING,campaign-28
+milestone-24,1,"Second owner relation","Milestone linked to spokesperson two campaign.",6.00,CONVERSION,campaign-29
