@@ -14,6 +14,7 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.invention = Invenciones
 master.menu.anonymous.strategy = Estrategias
+master.menu.anonymous.sponsorship = Patrocinios
 
 # master.menu.any #############################################################
 
@@ -37,6 +38,11 @@ master.menu.administrator.shut-system-down = Parar el sistema
 master.menu.inventor = Inventor
 master.menu.inventor.invention.list = Mis invenciones
 
+# master.menu.sponsor ########################################################
+
+master.menu.sponsor = Patrocinador
+master.menu.sponsor.sponsorship.list = Mis patrocinios
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -45,3 +51,5 @@ master.menu.user-account.become-fundraiser = Hazte recaudador
 master.menu.user-account.fundraiser-profile = Perfil de recaudador
 master.menu.user-account.become-inventor = Hazte inventor
 master.menu.user-account.inventor-profile = Perfil de inventor
+master.menu.user-account.become-sponsor = Hazte patrocinador
+master.menu.user-account.sponsor-profile = Perfil de patrocinador

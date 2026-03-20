@@ -70,8 +70,9 @@ public class Sponsorship extends AbstractEntity {
 	private String				moreInfo;
 
 	@Mandatory
+	@Valid
 	@Column
-	private boolean				draftMode;
+	private Boolean				draftMode;
 
 
 	// Derived attributes -----------------------------------------------------

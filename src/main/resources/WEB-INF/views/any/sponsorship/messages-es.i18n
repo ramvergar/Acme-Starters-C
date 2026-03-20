@@ -1,0 +1,22 @@
+#messages-es.i18n
+
+any.sponsorship.form.label.ticker= Referencia
+any.sponsorship.form.label.name = Nombre
+any.sponsorship.form.label.description = Descripción
+any.sponsorship.form.label.startMoment= Fecha de inicio
+any.sponsorship.form.label.endMoment= Fecha de fin
+any.sponsorship.form.label.moreInfo = Más información
+any.sponsorship.form.label.totalMoney = Dinero total
+any.sponsorship.form.label.mounthsActive = Meses activo
+
+any.sponsorship.form.label.donations = Ver donaciones
+any.sponsorship.form.label.sponsor = Ver patrocinador
+
+any.sponsorship.form.title= Patrocinio
+
+any.sponsorship.list.label.ticker= Referencia
+any.sponsorship.list.label.name = Nombre
+any.sponsorship.list.label.startMoment= Fecha de inicio
+any.sponsorship.list.label.endMoment= Fecha de fin
+
+any.sponsorship.list.title = Patrocinios

@@ -1,0 +1,14 @@
+#messages-en.i18n
+
+any.donation.form.label.name = Nombres
+any.donation.form.label.notes = Apuntes
+any.donation.form.label.money = Dinero
+any.donation.form.label.kind = Tipo
+
+any.donation.form.title = Donation
+
+any.donation.list.label.name = Nombre
+any.donation.list.label.money = Dinero
+any.donation.list.label.kind = Tipo
+
+any.donation.list.title = Donations

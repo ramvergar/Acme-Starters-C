@@ -22,6 +22,7 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.sponsorship" action="/any/sponsorship/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRealm('Administrator')">
@@ -41,9 +42,14 @@
 			<acme:menu-suboption code="master.menu.inventor.invention.list" action="/inventor/invention/list"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.sponsor" access="hasRealm('Sponsor')">
+			<acme:menu-suboption code="master.menu.sponsor.sponsorship.list" action="/sponsor/sponsorship/list"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.any" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.sponsorship" action="/any/sponsorship/list"/>
 		</acme:menu-option>
 
 
@@ -58,6 +64,9 @@
 
 			<acme:menu-suboption code="master.menu.user-account.become-inventor" action="/authenticated/inventor/create" access="!hasRealm('Inventor')"/>
 			<acme:menu-suboption code="master.menu.user-account.inventor-profile" action="/authenticated/inventor/update" access="hasRealm('Inventor')"/>
+			
+			<acme:menu-suboption code="master.menu.user-account.become-sponsor" action="/authenticated/sponsor/create" access="!hasRealm('Sponsor')"/>
+			<acme:menu-suboption code="master.menu.user-account.sponsor-profile" action="/authenticated/sponsor/update" access="hasRealm('Sponsor')"/>
 
 		</acme:menu-option>
 	</acme:menu-right>

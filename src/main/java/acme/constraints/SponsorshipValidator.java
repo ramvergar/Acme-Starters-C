@@ -59,7 +59,7 @@ public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sp
 
 			{
 				boolean validDonations;
-				if (sponsorship.isDraftMode())
+				if (sponsorship.getDraftMode())
 					validDonations = true;
 				else {
 					long count = this.donationRepository.countBySponsorshipId(sponsorship.getId());
