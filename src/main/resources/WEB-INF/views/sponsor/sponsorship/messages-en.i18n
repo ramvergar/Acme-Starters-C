@@ -1,0 +1,30 @@
+# messages-en.i18n
+
+sponsor.sponsorship.form.title = Sponsorship form
+sponsor.sponsorship.list.title = Listing of sponsorships
+
+sponsor.sponsorship.form.label.ticker = Ticker:
+sponsor.sponsorship.form.label.name = Name:
+sponsor.sponsorship.form.label.description = Description:
+sponsor.sponsorship.form.label.startMoment = Start moment:
+sponsor.sponsorship.form.label.endMoment = End moment:
+sponsor.sponsorship.form.label.moreInfo = More info:
+sponsor.sponsorship.form.label.totalMoney = Total money:
+sponsor.sponsorship.form.label.monthsActive = Months active:
+
+sponsor.sponsorship.form.button.update = Update
+sponsor.sponsorship.form.button.delete = Delete
+sponsor.sponsorship.form.button.donations = View donations
+sponsor.sponsorship.form.button.publish = Publish
+
+sponsor.sponsorship.list.label.ticker = Ticker
+sponsor.sponsorship.list.label.name = Name
+sponsor.sponsorship.list.label.description = Description
+sponsor.sponsorship.list.label.startMoment = Start Moment
+sponsor.sponsorship.list.label.endMoment = End Moment
+
+sponsor.sponsorship.list.button.create = Create
+sponsor.sponsorship.form.button.create = Create
+
+sponsor.sponsorship.form.error.invalid-period = Start moment must be before end moment
+sponsor.sponsorship.form.error.no-donations = The sponsorship must have donations for it to be published

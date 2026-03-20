@@ -1,0 +1,30 @@
+# messages-es.i18n
+
+sponsor.sponsorship.form.title = Formulario de patrocinio
+sponsor.sponsorship.list.title = Listado de patrocinios
+
+sponsor.sponsorship.form.label.ticker = Referencia:
+sponsor.sponsorship.form.label.name = Nombre:
+sponsor.sponsorship.form.label.description = Descripción:
+sponsor.sponsorship.form.label.startMoment = Momento de inicio:
+sponsor.sponsorship.form.label.endMoment = Momento de finalización:
+sponsor.sponsorship.form.label.moreInfo = Más información:
+sponsor.sponsorship.form.label.totalMoney = Dinero total:
+sponsor.sponsorship.form.label.monthsActive = Meses activo:
+
+sponsor.sponsorship.form.button.update = Actualizar
+sponsor.sponsorship.form.button.delete = Eliminar
+sponsor.sponsorship.form.button.donations = Ver donaciones
+sponsor.sponsorship.form.button.publish = Publicar
+
+sponsor.sponsorship.list.label.ticker = Referencia
+sponsor.sponsorship.list.label.name = Nombre
+sponsor.sponsorship.list.label.description = Descripción
+sponsor.sponsorship.list.label.startMoment = Momento de inicio
+sponsor.sponsorship.list.label.endMoment = Momento de finalización
+
+sponsor.sponsorship.list.button.create = Crear
+sponsor.sponsorship.form.button.create = Crear
+
+sponsor.sponsorship.form.error.invalid-period = La fecha de inicio debe ser anterior a la fecha de fin
+sponsor.sponsorship.form.error.no-donations = El patrocinio debe tener donaciones para poder ser publicado

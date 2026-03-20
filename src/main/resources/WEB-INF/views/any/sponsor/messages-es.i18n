@@ -1,0 +1,10 @@
+# messages-en.i18n
+
+any.sponsor.form.title= Perfil del patrocinador
+
+any.sponsor.form.label.address = Dirección
+any.sponsor.form.label.im= Sobre mi
+any.sponsor.form.label.gold= Oro
+any.sponsor.form.label.userAccount.username = Nombre de usuario
+sponsor.gold.true = Verdadero
+sponsor.gold.false = Falso

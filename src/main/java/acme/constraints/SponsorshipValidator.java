@@ -57,17 +57,6 @@ public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sp
 				super.state(context, validTimeInterval, "*", "acme.validation.sponsorship.timeInterval.message");
 			}
 
-			{
-				boolean validDonations;
-				if (sponsorship.isDraftMode())
-					validDonations = true;
-				else {
-					long count = this.donationRepository.countBySponsorshipId(sponsorship.getId());
-					validDonations = count > 0;
-				}
-
-				super.state(context, validDonations, "draftMode", "acme.validation.sponsorship.donations.message");
-			}
 			return !super.hasErrors(context);
 
 		}
