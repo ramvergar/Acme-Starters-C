@@ -22,6 +22,7 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.list-campaigns" action="/any/campaign/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRealm('Administrator')">
@@ -31,6 +32,10 @@
 			<acme:menu-suboption code="master.menu.administrator.populate-db-sample" action="/administrator/system/populate-sample"/>			
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shut-system-down" action="/administrator/system/shut-down"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.spokesperson" access="hasRealm('Spokesperson')">
+			<acme:menu-suboption code="master.menu.spokesperson.list-campaigns" action="/spokesperson/campaign/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.fundraiser" access="hasRealm('Fundraiser')">
@@ -44,6 +49,7 @@
 		<acme:menu-option code="master.menu.any" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.anonymous.invention" action="/any/invention/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.strategy" action="/any/strategy/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.list-campaigns" action="/any/campaign/list"/>
 		</acme:menu-option>
 
 
@@ -58,6 +64,9 @@
 
 			<acme:menu-suboption code="master.menu.user-account.become-inventor" action="/authenticated/inventor/create" access="!hasRealm('Inventor')"/>
 			<acme:menu-suboption code="master.menu.user-account.inventor-profile" action="/authenticated/inventor/update" access="hasRealm('Inventor')"/>
+			
+			<acme:menu-suboption code="master.menu.user-account.become-spokesperson" action="/authenticated/spokesperson/create" access="!hasRealm('Spokesperson')"/>
+			<acme:menu-suboption code="master.menu.user-account.spokesperson-profile" action="/authenticated/spokesperson/update" access="hasRealm('Spokesperson')"/>
 
 		</acme:menu-option>
 	</acme:menu-right>

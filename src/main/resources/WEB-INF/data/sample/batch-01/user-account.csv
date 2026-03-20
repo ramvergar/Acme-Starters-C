@@ -16,3 +16,6 @@ user-account-administrator-03,true,"UserIdentity{name: 'Administrator', surname:
 user-account-sponsor-01,true,"UserIdentity{name: 'Alberto', surname: 'Patrocinador', email: 'sponsor1@acme.com'}",sponsor1,sponsor1
 user-account-sponsor-02,true,"UserIdentity{name: 'Natalia', surname: 'Patrocinadora', email: 'sponsor2@acme.com'}",sponsor2,sponsor2
 user-account-sponsor-03,true,"UserIdentity{name: 'Jose', surname: 'Patrocinador', email: 'sponsor3@acme.com'}",sponsor3,sponsor3
+user-account-spokesperson-01,true,"UserIdentity{name: 'Alice', surname: 'Spokesperson', email: 'sp1@acme.com'}",spokesperson1,spokesperson1
+user-account-spokesperson-02,true,"UserIdentity{name: 'Bob', surname: 'Spokesperson', email: 'sp2@acme.com'}",spokesperson2,spokesperson2
+user-account-spokesperson-03,true,"UserIdentity{name: 'Charlie', surname: 'Spokesperson', email: 'sp3@acme.com'}",spokesperson3,spokesperson3

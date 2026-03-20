@@ -1,0 +1,49 @@
+key,version,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:spokesperson
+
+# base
+campaign-00,1,"AB12-ABCDE","AI Launch","Campaign focused on presenting artificial intelligence solutions for public awareness and institutional adoption.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/base",true,spokesperson-01
+
+# ticker variants (valid)
+campaign-01,1,"AC13-12345","AI Launch","Campaign focused on presenting artificial intelligence solutions for public awareness and institutional adoption.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/t1",true,spokesperson-01
+campaign-02,1,"AD14-ABCDE1","AI Launch","Campaign focused on presenting artificial intelligence solutions for public awareness and institutional adoption.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/t2",true,spokesperson-01
+campaign-03,1,"AE15-QQQQQ3","AI Launch","Campaign focused on presenting artificial intelligence solutions for public awareness and institutional adoption.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/t3",true,spokesperson-01
+campaign-04,1,"AF16-ABC_123","AI Launch","Campaign focused on presenting artificial intelligence solutions for public awareness and institutional adoption.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/t4",true,spokesperson-01
+campaign-05,1,"AG17-Z9Y8X7","AI Launch","Campaign focused on presenting artificial intelligence solutions for public awareness and institutional adoption.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/t5",true,spokesperson-01
+
+# name variants (valid headers)
+campaign-06,1,"AH18-HEADR1","A","Campaign that checks the shortest plausible valid header.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n1",true,spokesperson-01
+campaign-07,1,"AI19-HEADR2","AI","Campaign that checks a two-character header.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n2",true,spokesperson-01
+campaign-08,1,"AJ20-HEADR3","Control","Campaign that checks a medium header.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n3",true,spokesperson-01
+campaign-09,1,"AK21-HEADR4","Sistema avanzado de difusión energética para ciudades inteligentes","Campaign with a long but valid header close to the upper bound.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n4",true,spokesperson-01
+campaign-10,1,"AL22-HEADR5","نظام ذكي","Campaign with a valid non-Latin header.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n5",true,spokesperson-01
+campaign-11,1,"AM23-HEADR6","智能系统","Campaign with a valid Chinese header.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n6",true,spokesperson-01
+campaign-12,1,"AN24-HEADR7","ระบบอัจฉริยะ","Campaign with a valid Thai header.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/n7",true,spokesperson-01
+
+# description variants (valid text)
+campaign-13,1,"AO25-DESCR1","Urban Grid","A","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/d1",true,spokesperson-01
+campaign-14,1,"AP26-DESCR2","Urban Grid","AI","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/d2",true,spokesperson-01
+campaign-15,1,"AQ27-DESCR3","Urban Grid","Distributed architecture that collects public feedback and optimises campaign messages through predictive analytics.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/d3",true,spokesperson-01
+campaign-16,1,"AR28-DESCR4","Urban Grid","ระบบพลังงาน","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/d4",true,spokesperson-01
+campaign-17,1,"AS29-DESCR5","Urban Grid","نظام الطاقة","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/d5",true,spokesperson-01
+campaign-18,1,"AT30-DESCR6","Urban Grid","能源系统","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/d6",true,spokesperson-01
+
+# date variants (valid future intervals)
+campaign-19,1,"AU31-DATE01","Compact Storage","Short future interval test.","2026/01/08 00:00","2026/01/08 00:01","http://campaign.example/m1",true,spokesperson-01
+campaign-20,1,"AV32-DATE02","Compact Storage","Long future interval near the configured maximum range.","2200/12/31 23:58","2200/12/31 23:59","http://campaign.example/m2",true,spokesperson-01
+campaign-21,1,"AW33-DATE03","Compact Storage","Wide valid future interval.","2026/01/08 00:00","2200/12/31 23:59","http://campaign.example/m3",true,spokesperson-01
+
+# URL variants (valid)
+campaign-22,1,"AX34-URL001","Router Adaptativo","Campaign with short valid URL.","2026/01/08 00:00","2026/01/09 00:00","http://a.b",true,spokesperson-01
+campaign-23,1,"AY35-URL002","Router Adaptativo","Campaign with query string URL.","2026/01/08 00:00","2026/01/09 00:00","http://a.b?c",true,spokesperson-01
+campaign-24,1,"AZ36-URL003","Router Adaptativo","Campaign with standard http URL.","2026/01/08 00:00","2026/01/09 00:00","http://network.example",true,spokesperson-01
+campaign-25,1,"BA37-URL004","Router Adaptativo","Campaign with https URL.","2026/01/08 00:00","2026/01/09 00:00","https://network.example",true,spokesperson-01
+
+# optional URL
+campaign-26,1,"BB38-NOLINK","No Link Campaign","Campaign with null optional URL.","2026/01/08 00:00","2026/01/09 00:00",,true,spokesperson-01
+
+# draft mode variants
+campaign-27,1,"BC39-PUB001","Published Campaign","Published campaign visible to any principal.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/published",false,spokesperson-01
+campaign-28,1,"BD40-DRFT01","Draft Campaign","Draft campaign visible only to its spokesperson.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/draft",true,spokesperson-02
+
+# spokesperson variants
+campaign-29,1,"BE41-OWNR02","Second Owner Campaign","Campaign owned by spokesperson two.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/owner2",true,spokesperson-02

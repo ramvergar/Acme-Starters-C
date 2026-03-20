@@ -1,0 +1,46 @@
+key,version,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:spokesperson
+
+# base inválida mínima de referencia
+campaign-e00,1,"BAD","",,"2025/01/01 00:00","2025/01/01 00:00","bad-url",true,spokesperson-01
+
+# ticker inválido
+campaign-e01,1,"ABCDEFG-000001","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e02,1,"ABC-12345","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e03,1,"ABC-1234567","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e04,1,"1BC-123456","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e05,1,"ABC-DEFGHI","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e06,1,"abc-123456","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+
+# ticker duplicado (ahora con formato válido)
+campaign-e07,1,"AA10-DUPLI1","Duplicated ticker","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e08,1,"AA10-DUPLI1","Another duplicated ticker","Another valid description.","2025/01/10 00:00","2025/01/11 00:00","http://example.org",true,spokesperson-01
+
+# name inválido
+campaign-e09,1,"AB11-NAME01","","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e10,1,"AC12-NAME02","                                                                                                                                           ","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e11,1,"AD13-NAME03","Sistema avanzado de difusión energética urbana con sensores distribuidos de alta precisión y control adaptativo extremo","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e12,1,"AE14-NAME04","<script>alert('x')</script>","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+
+# description inválida
+campaign-e13,1,"AF15-DESC01","Valid Name","","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e14,1,"AG16-DESC02","Valid Name","                                                                                                                                                                                                                                                                ","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e15,1,"AH17-DESC03","Valid Name","Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo Texto demasiado largo.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e16,1,"AI18-DESC04","Valid Name","<script>alert('hack')</script>","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-01
+
+# fechas inválidas
+campaign-e17,1,"AJ19-DATE01","Valid Name","Valid description text.","2024/12/31 23:59","2025/01/09 00:00","http://example.com",true,spokesperson-01
+campaign-e18,1,"AK20-DATE02","Valid Name","Valid description text.","2025/01/08 00:00","2024/12/31 23:59","http://example.com",true,spokesperson-01
+campaign-e19,1,"AL21-DATE03","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/08 00:00","http://example.com",true,spokesperson-01
+campaign-e20,1,"AM22-DATE04","Valid Name","Valid description text.","2025/01/09 00:00","2025/01/08 00:00","http://example.com",true,spokesperson-01
+
+# URL inválida
+campaign-e21,1,"AN23-URL001","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","notaurl",true,spokesperson-01
+campaign-e22,1,"AO24-URL002","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http:/broken",true,spokesperson-01
+campaign-e23,1,"AP25-URL003","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","javascript:alert(1)",true,spokesperson-01
+
+# draft-mode inválido / nulo
+campaign-e24,1,"AQ26-DRFT01","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",,spokesperson-01
+
+# relación inválida
+campaign-e25,1,"AR27-REL001","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,
+campaign-e26,1,"AS28-REL002","Valid Name","Valid description text.","2025/01/08 00:00","2025/01/09 00:00","http://example.com",true,spokesperson-99

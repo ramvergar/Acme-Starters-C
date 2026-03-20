@@ -12,6 +12,11 @@ acme.validation.header.message  	= Must have from 1 to 75 characters
 acme.validation.text.message   		= Must have from 1 to 255 characters
 acme.validation.ticker.message 		= The ticker must have letters, digits, underscores, and hyphens only
 
+# Campaign ############################################################
+spokesperson.campaign.form.error.duplicated-ticker = The ticker already exists.
+spokesperson.campaign.form.error.invalid-period = The end moment must be after the start moment.
+spokesperson.campaign.form.error.no-milestones = A campaign must have at least one milestone before publishing.
+
 # Strategy #############################################################
 acme.validation.strategy.duplicated-ticker.message = The strategy is duplicated
 acme.validation.strategy.tactics.error.message = A Strategy cannot be published unless they have at least one tactic
