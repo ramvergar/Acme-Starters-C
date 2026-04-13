@@ -46,7 +46,6 @@ public class InventorPartDeleteService extends AbstractService<Inventor, Part> {
 
 	@Override
 	public void validate() {
-		super.validateObject(this.part);
 	}
 
 	@Override
