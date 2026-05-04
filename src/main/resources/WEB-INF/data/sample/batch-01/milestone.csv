@@ -36,3 +36,8 @@ milestone-21,1,"Conversion stage","Testing CONVERSION enum.",3.00,CONVERSION,cam
 milestone-22,1,"Published relation","Milestone linked to published campaign.",4.00,TEASER,campaign-27
 milestone-23,1,"Draft relation","Milestone linked to draft campaign.",5.00,ENGAGING,campaign-28
 milestone-24,1,"Second owner relation","Milestone linked to spokesperson two campaign.",6.00,CONVERSION,campaign-29
+
+# published campaign milestones
+milestone-25,1,"Green awareness phase","First milestone of the green energy published campaign.",3.50,TEASER,campaign-30
+milestone-26,1,"Community engagement","Second milestone driving community participation.",5.00,ENGAGING,campaign-30
+milestone-27,1,"Second teaser","Additional milestone for published campaign one.",2.00,ENGAGING,campaign-27

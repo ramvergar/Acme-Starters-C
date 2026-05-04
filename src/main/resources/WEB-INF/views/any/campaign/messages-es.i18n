@@ -8,6 +8,8 @@ any.campaign.form.label.moreInfo = Más información
 any.campaign.form.label.draftMode = Modo borrador
 any.campaign.form.button.milestones = Ver hitos
 any.campaign.form.button.spokesperson = Ver perfil del portavoz
+any.campaign.form.label.monthsActive = Meses activos
+any.campaign.form.label.effort = Esfuerzo
 
 any.campaign.list.label.ticker = Código
 any.campaign.list.title = Campañas
