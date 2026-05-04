@@ -54,6 +54,10 @@ public class SpokespersonCampaignShowService extends AbstractService<Spokesperso
 
 	@Override
 	public void unbind() {
+		Double effort = this.repository.calculateTotalEffortByCampaignId(this.campaign.getId());
+
+		this.campaign.setEffort(effort);
+
 		super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode", "monthsActive", "effort");
 	}
 }

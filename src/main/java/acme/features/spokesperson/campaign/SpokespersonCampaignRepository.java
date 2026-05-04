@@ -42,4 +42,6 @@ public interface SpokespersonCampaignRepository extends AbstractRepository {
 	@Transactional
 	@Query("delete from Milestone m where m.campaign.id = :campaignId")
 	void deleteMilestonesByCampaignId(int campaignId);
+	@Query("select coalesce(sum(m.effort), 0.0) from Milestone m where m.campaign.id = :campaignId")
+	Double calculateTotalEffortByCampaignId(int campaignId);
 }
