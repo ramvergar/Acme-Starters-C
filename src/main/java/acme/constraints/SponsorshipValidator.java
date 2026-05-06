@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.validation.AbstractValidator;
 import acme.client.components.validation.Validator;
-import acme.entities.sponsorships.DonationRepository;
 import acme.entities.sponsorships.Sponsorship;
 import acme.entities.sponsorships.SponsorshipRepository;
 
@@ -17,10 +16,7 @@ public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sp
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private SponsorshipRepository	repository;
-
-	@Autowired
-	private DonationRepository		donationRepository;
+	private SponsorshipRepository repository;
 
 	// ConstraintValidator interface ------------------------------------------
 
