@@ -42,8 +42,9 @@ campaign-25,1,"BA37-URL004","Router Adaptativo","Campaign with https URL.","2026
 campaign-26,1,"BB38-NOLINK","No Link Campaign","Campaign with null optional URL.","2026/01/08 00:00","2026/01/09 00:00",,true,spokesperson-01
 
 # draft mode variants
-campaign-27,1,"BC39-PUB001","Published Campaign","Published campaign visible to any principal.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/published",false,spokesperson-01
-campaign-28,1,"BD40-DRFT01","Draft Campaign","Draft campaign visible only to its spokesperson.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/draft",true,spokesperson-02
+campaign-27,1,"BC39-PUB001","Published Campaign","Published campaign visible to any principal.","2026/06/10 00:00","2026/07/10 00:00","http://campaign.example/published",false,spokesperson-01
+campaign-28,1,"BD40-DRFT01","Draft Campaign","Draft campaign visible only to its spokesperson.","2026/06/10 00:00","2026/07/10 00:00","http://campaign.example/draft",true,spokesperson-02
 
 # spokesperson variants
-campaign-29,1,"BE41-OWNR02","Second Owner Campaign","Campaign owned by spokesperson two.","2026/01/08 00:00","2026/01/09 00:00","http://campaign.example/owner2",true,spokesperson-02
+campaign-29,1,"BE41-OWNR02","Second Owner Campaign","Campaign owned by spokesperson two.","2026/06/10 00:00","2026/07/10 00:00","http://campaign.example/owner2",true,spokesperson-02
+campaign-30,1,"BF42-PUB002","Green Energy Push","Published campaign by spokesperson two promoting renewable energy awareness.","2026/06/01 00:00","2026/12/31 23:59","http://campaign.example/published2",false,spokesperson-02

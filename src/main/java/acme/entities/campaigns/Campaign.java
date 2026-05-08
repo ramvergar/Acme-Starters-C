@@ -90,14 +90,10 @@ public class Campaign extends AbstractEntity {
 
 
 	@OneToMany(mappedBy = "campaign")
-	private Collection<Milestone> milestones;
-
+	private Collection<Milestone>	milestones;
 
 	@Transient
-	public Double getEffort() {
-		if (this.milestones == null || this.milestones.isEmpty())
-			return 0.0;
-
-		return this.milestones.stream().filter(m -> m.getEffort() != null).mapToDouble(Milestone::getEffort).sum();
-	}
+	@Getter
+	@Setter
+	private Double					effort;
 }

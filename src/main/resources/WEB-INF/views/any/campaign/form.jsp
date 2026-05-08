@@ -14,6 +14,8 @@
 	<acme:form-moment code="any.campaign.form.label.startMoment" path="startMoment"/>
 	<acme:form-moment code="any.campaign.form.label.endMoment" path="endMoment"/>
 	<acme:form-url code="any.campaign.form.label.moreInfo" path="moreInfo"/>
+	<acme:form-double code="any.campaign.form.label.monthsActive" path="monthsActive"/>
+	<acme:form-double code="any.campaign.form.label.effort" path="effort"/>
 	<acme:form-checkbox code="any.campaign.form.label.draftMode" path="draftMode"/>
 
 	<jstl:if test="${_command == 'show'}">

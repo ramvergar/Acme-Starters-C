@@ -51,8 +51,9 @@ public class AnyCampaignShowService extends AbstractService<Any, Campaign> {
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
-
+		Double effort = this.repository.calculateTotalEffortByCampaignId(this.campaign.getId());
+		this.campaign.setEffort(effort);
+		super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode", "monthsActive", "effort");
 		super.getResponse().addGlobal("campaignId", this.campaign.getId());
 		super.getResponse().addGlobal("spokespersonId", this.campaign.getSpokesperson().getId());
 	}

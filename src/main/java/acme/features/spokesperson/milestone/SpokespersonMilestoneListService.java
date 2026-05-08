@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.client.services.AbstractService;
+import acme.entities.campaigns.Campaign;
 import acme.entities.campaigns.Milestone;
 import acme.realms.Spokesperson;
 
@@ -17,6 +18,7 @@ public class SpokespersonMilestoneListService extends AbstractService<Spokespers
 	private SpokespersonMilestoneRepository	repository;
 
 	private Collection<Milestone>			milestones;
+	private Campaign						campaign;
 
 
 	@Override
@@ -26,6 +28,7 @@ public class SpokespersonMilestoneListService extends AbstractService<Spokespers
 
 		campaignId = super.getRequest().getData("masterId", int.class);
 		this.milestones = this.repository.findMilestonesByCampaignId(campaignId);
+		this.campaign = this.repository.findCampaignById(campaignId);
 	}
 
 	@Override
@@ -64,5 +67,6 @@ public class SpokespersonMilestoneListService extends AbstractService<Spokespers
 		int campaignId;
 		campaignId = super.getRequest().getData("masterId", int.class);
 		super.getResponse().addGlobal("masterId", campaignId);
+		super.getResponse().addGlobal("draftMode", this.campaign.getDraftMode());
 	}
 }

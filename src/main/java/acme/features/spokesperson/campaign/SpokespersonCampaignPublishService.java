@@ -45,11 +45,17 @@ public class SpokespersonCampaignPublishService extends AbstractService<Spokespe
 
 	@Override
 	public void bind() {
+		super.bindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
 	}
 
 	@Override
 	public void validate() {
 		Integer numberOfMilestones;
+
+		Campaign existingCampaign;
+		existingCampaign = this.repository.findCampaignByTicker(this.campaign.getTicker());
+		if (existingCampaign != null && existingCampaign.getId() != this.campaign.getId())
+			super.state(false, "ticker", "spokesperson.campaign.form.error.duplicated-ticker");
 
 		numberOfMilestones = this.repository.countMilestonesByCampaignId(this.campaign.getId());
 		super.state(numberOfMilestones != null && numberOfMilestones > 0, "*", "spokesperson.campaign.form.error.no-milestones");
